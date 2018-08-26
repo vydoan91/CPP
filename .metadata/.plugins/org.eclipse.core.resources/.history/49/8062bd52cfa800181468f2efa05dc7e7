@@ -1,0 +1,137 @@
+#ifndef MYLIST_H_
+#define MYLIST_H_
+
+#include <new>
+using namespace std;
+
+class MyList {
+
+private:
+
+	struct Node {
+		int value;
+		Node* next;
+	};
+
+	Node* head;
+
+public:
+	MyList();
+	~MyList();
+
+	int getHead() const;
+	bool isFull() const;
+	bool isEmpty() const;
+	bool find(int) const;
+	int remove(int);
+	int append(int);
+	void clear();
+	void print() const;
+};
+
+MyList::MyList() {
+	head = nullptr;
+}
+
+// Frees all memory used by the list by calling clear method
+MyList::~MyList() {
+	clear();
+}
+
+int MyList::getHead() const {
+	return head->value;
+}
+
+//returns true if there's NOT enough memory to create a new node, false otherwise.
+bool MyList::isFull() const {
+	try {
+		Node* n = new Node;
+		delete n;
+		return false;
+	} catch(bad_alloc&) {
+		return true;
+	}
+
+}
+
+bool MyList::isEmpty() const {
+	if(head == nullptr) {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+bool MyList::find(int k) const {
+	Node* temp = head;
+	while(temp != nullptr) {
+		if(temp->value == k) {
+			return true;
+		}
+		temp = temp->next;
+	}
+	return false;
+}
+
+// search for a value and remove the first node that it finds with the matching value.
+int MyList::remove(int k) {
+	Node* temp = head;
+	Node* prev = nullptr;
+
+	while(temp != nullptr && temp->value != k) {
+		prev = temp;
+		temp = temp->next;
+	}
+
+	if(temp != nullptr) {
+		if(prev == nullptr) {
+			head = head->next;
+		} else {
+			prev->next = temp->next;
+			delete(temp);
+		}
+		return 0;
+	}
+	return -1;
+}
+
+//places a new value at the end of the list.
+int MyList::append(int v) {
+	if(isFull()) {
+		return -1;
+	}
+
+	Node* n = new Node;
+	n->value = v;
+	n->next = nullptr;
+
+	if(isEmpty()) {
+		head = n;
+	} else {
+		Node* temp = head;
+		while(temp->next != nullptr) {
+			temp = temp->next;
+		}
+		temp->next = n;
+	}
+	return 0;
+}
+
+void MyList::clear() {
+	while (head != nullptr) {
+		Node* p = head;
+		head = head->next;
+		delete(p);
+	}
+}
+
+void MyList::print() const {
+	Node* temp = head;
+	while(temp != nullptr) {
+		cout << temp->value << " ";
+		temp = temp->next;
+	}
+	cout << "\n";
+}
+
+#endif /* MYLIST_H_ */

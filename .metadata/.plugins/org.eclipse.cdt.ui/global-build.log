@@ -1,0 +1,625 @@
+17:14:21 **** Build of configuration Debug for project Practice ****
+make all 
+Building file: ../HelloWorld.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"HelloWorld.d" -MT"HelloWorld.o" -o "HelloWorld.o" "../HelloWorld.cpp"
+Finished building: ../HelloWorld.cpp
+ 
+Building target: Practice
+Invoking: MacOS X C++ Linker
+g++  -o "Practice"  ./HelloWorld.o   
+Finished building target: Practice
+ 
+17:15:03 **** Incremental Build of configuration Debug for project Practice ****
+make all 
+make: Nothing to be done for `all'.
+17:23:44 **** Incremental Build of configuration Debug for project Practice ****
+make all 
+make: Nothing to be done for `all'.
+09:36:44 **** Incremental Build of configuration Debug for project Practice ****
+make all 
+make: Nothing to be done for `all'.
+09:36:44 **** Build of configuration Debug for project hw1 ****
+make all 
+Building file: ../MyList.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"MyList.d" -MT"MyList.o" -o "MyList.o" "../MyList.cpp"
+Finished building: ../MyList.cpp
+ 
+Building target: hw1
+Invoking: MacOS X C++ Linker
+g++  -o "hw1"  ./MyList.o   
+Undefined symbols for architecture x86_64:
+  "_main", referenced from:
+     implicit entry/start for main executable
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [hw1] Error 1
+09:38:21 **** Incremental Build of configuration Debug for project Practice ****
+make all 
+make: Nothing to be done for `all'.
+09:38:22 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+Building target: hw1
+Invoking: MacOS X C++ Linker
+g++  -o "hw1"  ./MyList.o   
+Undefined symbols for architecture x86_64:
+  "_main", referenced from:
+     implicit entry/start for main executable
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [hw1] Error 1
+15:19:55 **** Incremental Build of configuration Debug for project Practice ****
+make all 
+make: Nothing to be done for `all'.
+15:19:55 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+Building target: hw1
+Invoking: MacOS X C++ Linker
+g++  -o "hw1"  ./MyList.o   
+Undefined symbols for architecture x86_64:
+  "_main", referenced from:
+     implicit entry/start for main executable
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [hw1] Error 1
+15:22:46 **** Incremental Build of configuration Debug for project Practice ****
+make all 
+make: Nothing to be done for `all'.
+15:22:46 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+Building target: hw1
+Invoking: MacOS X C++ Linker
+g++  -o "hw1"  ./MyList.o   
+Undefined symbols for architecture x86_64:
+  "_main", referenced from:
+     implicit entry/start for main executable
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [hw1] Error 1
+15:25:03 **** Incremental Build of configuration Debug for project Practice ****
+make all 
+make: Nothing to be done for `all'.
+15:25:03 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+Building target: hw1
+Invoking: MacOS X C++ Linker
+g++  -o "hw1"  ./MyList.o   
+Undefined symbols for architecture x86_64:
+  "_main", referenced from:
+     implicit entry/start for main executable
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [hw1] Error 1
+15:27:31 **** Incremental Build of configuration Debug for project Practice ****
+make all 
+make: Nothing to be done for `all'.
+15:27:32 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+Building target: hw1
+Invoking: MacOS X C++ Linker
+g++  -o "hw1"  ./MyList.o   
+Undefined symbols for architecture x86_64:
+  "_main", referenced from:
+     implicit entry/start for main executable
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [hw1] Error 1
+15:27:45 **** Incremental Build of configuration Debug for project Practice ****
+make all 
+make: Nothing to be done for `all'.
+15:27:45 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+Building target: hw1
+Invoking: MacOS X C++ Linker
+g++  -o "hw1"  ./MyList.o   
+Undefined symbols for architecture x86_64:
+  "_main", referenced from:
+     implicit entry/start for main executable
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [hw1] Error 1
+15:28:15 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+Building target: hw1
+Invoking: MacOS X C++ Linker
+g++  -o "hw1"  ./MyList.o   
+Undefined symbols for architecture x86_64:
+  "_main", referenced from:
+     implicit entry/start for main executable
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [hw1] Error 1
+15:42:29 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+Building target: hw1
+Invoking: MacOS X C++ Linker
+g++  -o "hw1"  ./MyList.o   
+Undefined symbols for architecture x86_64:
+  "_main", referenced from:
+     implicit entry/start for main executable
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [hw1] Error 1
+15:44:03 **** Incremental Build of configuration Debug for project hw1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o MyList.o ../MyList.cpp 
+g++ -o hw1 MyList.o 
+Undefined symbols for architecture x86_64:
+  "_main", referenced from:
+     implicit entry/start for main executable
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+15:45:07 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+Building target: hw1
+Invoking: MacOS X C++ Linker
+g++  -o "hw1"  ./MyList.o   
+Undefined symbols for architecture x86_64:
+  "_main", referenced from:
+     implicit entry/start for main executable
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [hw1] Error 1
+15:45:22 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+Building target: hw1
+Invoking: MacOS X C++ Linker
+g++  -o "hw1"  ./MyList.o   
+Undefined symbols for architecture x86_64:
+  "_main", referenced from:
+     implicit entry/start for main executable
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [hw1] Error 1
+16:51:25 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+Building target: hw1
+Invoking: MacOS X C++ Linker
+g++  -o "hw1"  ./MyList.o   
+Undefined symbols for architecture x86_64:
+  "_main", referenced from:
+     implicit entry/start for main executable
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [hw1] Error 1
+17:58:25 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+Building target: hw1
+Invoking: MacOS X C++ Linker
+g++  -o "hw1"  ./MyList.o   
+Undefined symbols for architecture x86_64:
+  "_main", referenced from:
+     implicit entry/start for main executable
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [hw1] Error 1
+17:59:39 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+Building target: hw1
+Invoking: MacOS X C++ Linker
+g++  -o "hw1"  ./MyList.o   
+Undefined symbols for architecture x86_64:
+  "_main", referenced from:
+     implicit entry/start for main executable
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [hw1] Error 1
+18:04:18 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:9:
+../MyList.h:85:6: warning: variable 'removedValue' is used uninitialized whenever 'if' condition is true [-Wsometimes-uninitialized]
+                if(prev == nullptr) {
+                   ^~~~~~~~~~~~~~~
+../MyList.h:93:9: note: uninitialized use occurs here
+        return removedValue;
+               ^~~~~~~~~~~~
+../MyList.h:85:3: note: remove the 'if' if its condition is always false
+                if(prev == nullptr) {
+                ^~~~~~~~~~~~~~~~~~~~~
+../MyList.h:84:5: warning: variable 'removedValue' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+        if(temp != nullptr) {
+           ^~~~~~~~~~~~~~~
+../MyList.h:93:9: note: uninitialized use occurs here
+        return removedValue;
+               ^~~~~~~~~~~~
+../MyList.h:84:2: note: remove the 'if' if its condition is always true
+        if(temp != nullptr) {
+        ^~~~~~~~~~~~~~~~~~~~
+../MyList.h:77:18: note: initialize the variable 'removedValue' to silence this warning
+        int removedValue;
+                        ^
+                         = 0
+../MyList.h:99:10: warning: implicit conversion of NULL constant to 'int' [-Wnull-conversion]
+                return NULL;
+                ~~~~~~ ^~~~
+                       0
+3 warnings generated.
+Finished building: ../main.cpp
+ 
+Building target: hw1
+Invoking: MacOS X C++ Linker
+g++  -o "hw1"  ./main.o   
+Finished building target: hw1
+ 
+18:04:27 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+18:05:10 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+18:05:17 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:9:
+../MyList.h:85:6: warning: variable 'removedValue' is used uninitialized whenever 'if' condition is true [-Wsometimes-uninitialized]
+                if(prev == nullptr) {
+                   ^~~~~~~~~~~~~~~
+../MyList.h:93:9: note: uninitialized use occurs here
+        return removedValue;
+               ^~~~~~~~~~~~
+../MyList.h:85:3: note: remove the 'if' if its condition is always false
+                if(prev == nullptr) {
+                ^~~~~~~~~~~~~~~~~~~~~
+../MyList.h:84:5: warning: variable 'removedValue' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+        if(temp != nullptr) {
+           ^~~~~~~~~~~~~~~
+../MyList.h:93:9: note: uninitialized use occurs here
+        return removedValue;
+               ^~~~~~~~~~~~
+../MyList.h:84:2: note: remove the 'if' if its condition is always true
+        if(temp != nullptr) {
+        ^~~~~~~~~~~~~~~~~~~~
+../MyList.h:77:18: note: initialize the variable 'removedValue' to silence this warning
+        int removedValue;
+                        ^
+                         = 0
+../MyList.h:99:10: warning: implicit conversion of NULL constant to 'int' [-Wnull-conversion]
+                return NULL;
+                ~~~~~~ ^~~~
+                       0
+3 warnings generated.
+Finished building: ../main.cpp
+ 
+Building target: hw1
+Invoking: MacOS X C++ Linker
+g++  -o "hw1"  ./main.o   
+Finished building target: hw1
+ 
+18:05:20 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+18:05:39 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+18:05:46 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:9:
+../MyList.h:85:6: warning: variable 'removedValue' is used uninitialized whenever 'if' condition is true [-Wsometimes-uninitialized]
+                if(prev == nullptr) {
+                   ^~~~~~~~~~~~~~~
+../MyList.h:93:9: note: uninitialized use occurs here
+        return removedValue;
+               ^~~~~~~~~~~~
+../MyList.h:85:3: note: remove the 'if' if its condition is always false
+                if(prev == nullptr) {
+                ^~~~~~~~~~~~~~~~~~~~~
+../MyList.h:84:5: warning: variable 'removedValue' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+        if(temp != nullptr) {
+           ^~~~~~~~~~~~~~~
+../MyList.h:93:9: note: uninitialized use occurs here
+        return removedValue;
+               ^~~~~~~~~~~~
+../MyList.h:84:2: note: remove the 'if' if its condition is always true
+        if(temp != nullptr) {
+        ^~~~~~~~~~~~~~~~~~~~
+../MyList.h:77:18: note: initialize the variable 'removedValue' to silence this warning
+        int removedValue;
+                        ^
+                         = 0
+../MyList.h:99:10: warning: implicit conversion of NULL constant to 'int' [-Wnull-conversion]
+                return NULL;
+                ~~~~~~ ^~~~
+                       0
+3 warnings generated.
+Finished building: ../main.cpp
+ 
+Building target: hw1
+Invoking: MacOS X C++ Linker
+g++  -o "hw1"  ./main.o   
+Finished building target: hw1
+ 
+18:05:48 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+18:06:19 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:9:
+../MyList.h:85:6: warning: variable 'removedValue' is used uninitialized whenever 'if' condition is true [-Wsometimes-uninitialized]
+                if(prev == nullptr) {
+                   ^~~~~~~~~~~~~~~
+../MyList.h:93:9: note: uninitialized use occurs here
+        return removedValue;
+               ^~~~~~~~~~~~
+../MyList.h:85:3: note: remove the 'if' if its condition is always false
+                if(prev == nullptr) {
+                ^~~~~~~~~~~~~~~~~~~~~
+../MyList.h:84:5: warning: variable 'removedValue' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+        if(temp != nullptr) {
+           ^~~~~~~~~~~~~~~
+../MyList.h:93:9: note: uninitialized use occurs here
+        return removedValue;
+               ^~~~~~~~~~~~
+../MyList.h:84:2: note: remove the 'if' if its condition is always true
+        if(temp != nullptr) {
+        ^~~~~~~~~~~~~~~~~~~~
+../MyList.h:77:18: note: initialize the variable 'removedValue' to silence this warning
+        int removedValue;
+                        ^
+                         = 0
+../MyList.h:99:10: warning: implicit conversion of NULL constant to 'int' [-Wnull-conversion]
+                return NULL;
+                ~~~~~~ ^~~~
+                       0
+../main.cpp:28:2: error: invalid argument type 'MyList' to unary expression
+        ~list;
+        ^~~~~
+3 warnings and 1 error generated.
+make: *** [main.o] Error 1
+18:07:15 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:9:
+../MyList.h:85:6: warning: variable 'removedValue' is used uninitialized whenever 'if' condition is true [-Wsometimes-uninitialized]
+                if(prev == nullptr) {
+                   ^~~~~~~~~~~~~~~
+../MyList.h:93:9: note: uninitialized use occurs here
+        return removedValue;
+               ^~~~~~~~~~~~
+../MyList.h:85:3: note: remove the 'if' if its condition is always false
+                if(prev == nullptr) {
+                ^~~~~~~~~~~~~~~~~~~~~
+../MyList.h:84:5: warning: variable 'removedValue' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+        if(temp != nullptr) {
+           ^~~~~~~~~~~~~~~
+../MyList.h:93:9: note: uninitialized use occurs here
+        return removedValue;
+               ^~~~~~~~~~~~
+../MyList.h:84:2: note: remove the 'if' if its condition is always true
+        if(temp != nullptr) {
+        ^~~~~~~~~~~~~~~~~~~~
+../MyList.h:77:18: note: initialize the variable 'removedValue' to silence this warning
+        int removedValue;
+                        ^
+                         = 0
+../MyList.h:99:10: warning: implicit conversion of NULL constant to 'int' [-Wnull-conversion]
+                return NULL;
+                ~~~~~~ ^~~~
+                       0
+3 warnings generated.
+Finished building: ../main.cpp
+ 
+Building target: hw1
+Invoking: MacOS X C++ Linker
+g++  -o "hw1"  ./main.o   
+Finished building target: hw1
+ 
+18:08:11 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:9:
+../MyList.h:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../MyList.h:96:10: warning: implicit conversion of NULL constant to 'int' [-Wnull-conversion]
+                return NULL;
+                ~~~~~~ ^~~~
+                       0
+2 warnings generated.
+Finished building: ../main.cpp
+ 
+Building target: hw1
+Invoking: MacOS X C++ Linker
+g++  -o "hw1"  ./main.o   
+Finished building target: hw1
+ 
+18:08:16 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+18:08:52 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:9:
+../MyList.h:97:10: warning: implicit conversion of NULL constant to 'int' [-Wnull-conversion]
+                return NULL;
+                ~~~~~~ ^~~~
+                       0
+1 warning generated.
+Finished building: ../main.cpp
+ 
+Building target: hw1
+Invoking: MacOS X C++ Linker
+g++  -o "hw1"  ./main.o   
+Finished building target: hw1
+ 
+18:08:56 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+18:09:23 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:9:
+../MyList.h:97:10: warning: implicit conversion of NULL constant to 'int' [-Wnull-conversion]
+                return NULL;
+                ~~~~~~ ^~~~
+                       0
+1 warning generated.
+Finished building: ../main.cpp
+ 
+Building target: hw1
+Invoking: MacOS X C++ Linker
+g++  -o "hw1"  ./main.o   
+Finished building target: hw1
+ 
+18:09:25 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+18:13:06 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:9:
+../MyList.h:101:10: warning: implicit conversion of NULL constant to 'int' [-Wnull-conversion]
+                return NULL;
+                ~~~~~~ ^~~~
+                       0
+1 warning generated.
+Finished building: ../main.cpp
+ 
+Building target: hw1
+Invoking: MacOS X C++ Linker
+g++  -o "hw1"  ./main.o   
+Finished building target: hw1
+ 
+18:13:07 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+18:23:23 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: hw1
+Invoking: MacOS X C++ Linker
+g++  -o "hw1"  ./main.o   
+Finished building target: hw1
+ 
+18:23:30 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+18:23:35 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+18:24:04 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: hw1
+Invoking: MacOS X C++ Linker
+g++  -o "hw1"  ./main.o   
+Finished building target: hw1
+ 
+18:24:07 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+18:28:19 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: hw1
+Invoking: MacOS X C++ Linker
+g++  -o "hw1"  ./main.o   
+Finished building target: hw1
+ 
+18:28:23 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:9:
+../MyList.h:40:13: error: out-of-line definition of 'getHead' does not match any declaration in 'MyList'
+int MyList::getHead() const {
+            ^~~~~~~
+1 error generated.
+make: *** [main.o] Error 1
+18:28:47 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: hw1
+Invoking: MacOS X C++ Linker
+g++  -o "hw1"  ./main.o   
+Finished building target: hw1
+ 
+18:28:50 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+18:39:16 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: hw1
+Invoking: MacOS X C++ Linker
+g++  -o "hw1"  ./main.o   
+Finished building target: hw1
+ 
+18:39:37 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: hw1
+Invoking: MacOS X C++ Linker
+g++  -o "hw1"  ./main.o   
+Finished building target: hw1
+ 
+18:39:53 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: hw1
+Invoking: MacOS X C++ Linker
+g++  -o "hw1"  ./main.o   
+Finished building target: hw1
+ 
+18:41:01 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: hw1
+Invoking: MacOS X C++ Linker
+g++  -o "hw1"  ./main.o   
+Finished building target: hw1
+ 
