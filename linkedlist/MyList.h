@@ -11,7 +11,6 @@ using namespace std;
 class MyList {
 
 private:
-
 	// Node is a nested struct storing value of type int and next of type Node*
 	struct Node {
 		int value;
@@ -23,6 +22,8 @@ private:
 public:
 	MyList();
 	~MyList();
+	int getHead() const;
+
 	bool isFull() const;
 	bool isEmpty() const;
 	bool find(int) const;
@@ -42,6 +43,9 @@ MyList::~MyList() {
 	clear();
 }
 
+int MyList::getHead() const {
+	return head->value;
+}
 // isFull - returns true if there's NOT enough memory to create a new node, false otherwise.
 bool MyList::isFull() const {
 	try {
@@ -65,7 +69,8 @@ bool MyList::isEmpty() const {
 // find - searches the list for it's argument.
 // Returns true if it's found, false otherwise.
 bool MyList::find(int k) const {
-	Node* temp = head;
+	Node* temp;
+	temp = head;
 
 	while(temp != nullptr) {
 		if(temp->value == k) {
@@ -80,42 +85,52 @@ bool MyList::find(int k) const {
 // remove - removes the first node found matching the argument passed to remove.
 // Returns 0 if a node is removed, -1 otherwise.
 int MyList::remove(int k) {
-	Node* temp = head;
-	Node* prev = nullptr;
+	Node *temp, *prev;
+	temp = head;
+	prev = nullptr;
 
+	// Search for node to be deleted
 	while(temp != nullptr && temp->value != k) {
 		prev = temp;
 		temp = temp->next;
 	}
 
+	// if temp != null, node is found
 	if(temp != nullptr) {
+		// if prev == nullptr, meaning that desired node is the first node
 		if(prev == nullptr) {
 			head = head->next;
+		// else, node is in the middle or end of the list
 		} else {
 			prev->next = temp->next;
-			delete(temp);
 		}
 		return 0;
 	}
-
+	// if temp == null, desired node in not in the list, return -1
 	return -1;
 }
 
 // append - attempts to append it's argument to the list in a new node.
 // Returns 0 if successful, -1 otherwise.
 int MyList::append(int v) {
+
+	// if list is full, return -1
 	if(isFull()) {
 		return -1;
 	}
 
+	// Create the new node with provided value
 	Node* n = new Node;
 	n->value = v;
 	n->next = nullptr;
 
+	// if empty, the new node becomes head
 	if(isEmpty()) {
 		head = n;
+	// else, add node to end of list
 	} else {
-		Node* temp = head;
+		Node* temp;
+		temp = head;
 		while(temp->next != nullptr) {
 			temp = temp->next;
 		}
@@ -130,19 +145,22 @@ void MyList::clear() {
 	while (head != nullptr) {
 		Node* p = head;
 		head = head->next;
-		delete(p);
+		delete p;
 	}
 }
 
 // print - displays the contents of the list to the screen.
 void MyList::print() const {
-	Node* temp = head;
+	Node* temp;
+	temp = head;
 
+	if(head == nullptr) {
+		cout << "List is empty" << endl;
+	}
 	while(temp != nullptr) {
 		cout << temp->value << " ";
 		temp = temp->next;
 	}
-
 	cout << "\n";
 }
 
