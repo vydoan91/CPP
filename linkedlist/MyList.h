@@ -11,18 +11,19 @@ using namespace std;
 class MyList {
 
 private:
-	// Node is a nested struct storing value of type int and next of type Node*
+	// Node - a nested struct storing value
+	// of type int and next of type Node*
 	struct Node {
 		int value;
 		Node* next;
 	};
-	// The head pointer - stores the memory address of the first node in the list.
+	// The head pointer - stores the memory
+	// address of the first node in the list.
 	Node* head;
 
 public:
 	MyList();
 	~MyList();
-	int getHead() const;
 
 	bool isFull() const;
 	bool isEmpty() const;
@@ -38,15 +39,14 @@ MyList::MyList() {
 	head = nullptr;
 }
 
-// Destructor - frees all memory used by the list by calling clear method
+// Destructor - frees all memory used by the
+// list by calling clear method
 MyList::~MyList() {
 	clear();
 }
 
-int MyList::getHead() const {
-	return head->value;
-}
-// isFull - returns true if there's NOT enough memory to create a new node, false otherwise.
+// isFull - returns true if there's NOT enough
+// memory to create a new node, false otherwise.
 bool MyList::isFull() const {
 	try {
 		Node* n = new Node;
@@ -57,7 +57,8 @@ bool MyList::isFull() const {
 	}
 }
 
-// isEmpty - returns true if the list is empty, false otherwise.
+// isEmpty - returns true if the list is empty,
+// false otherwise.
 bool MyList::isEmpty() const {
 	if(head == nullptr) {
 		return true;
@@ -69,8 +70,7 @@ bool MyList::isEmpty() const {
 // find - searches the list for it's argument.
 // Returns true if it's found, false otherwise.
 bool MyList::find(int k) const {
-	Node* temp;
-	temp = head;
+	Node* temp = head;
 
 	while(temp != nullptr) {
 		if(temp->value == k) {
@@ -82,7 +82,8 @@ bool MyList::find(int k) const {
 	return false;
 }
 
-// remove - removes the first node found matching the argument passed to remove.
+// remove - removes the first node found matching
+// the argument passed to remove.
 // Returns 0 if a node is removed, -1 otherwise.
 int MyList::remove(int k) {
 	Node *temp, *prev;
@@ -97,20 +98,25 @@ int MyList::remove(int k) {
 
 	// if temp != null, node is found
 	if(temp != nullptr) {
-		// if prev == nullptr, meaning that desired node is the first node
+		// if prev == nullptr, meaning that desired
+		// node is the first node
 		if(prev == nullptr) {
 			head = head->next;
-		// else, node is in the middle or end of the list
+		// else, node is in the middle or end of
+		// the list
 		} else {
 			prev->next = temp->next;
 		}
+		delete(temp);
 		return 0;
 	}
-	// if temp == null, desired node in not in the list, return -1
+	// if temp == null, desired node in not in the
+	// list, return -1
 	return -1;
 }
 
-// append - attempts to append it's argument to the list in a new node.
+// append - attempts to append it's argument to the
+// list in a new node.
 // Returns 0 if successful, -1 otherwise.
 int MyList::append(int v) {
 
@@ -129,8 +135,7 @@ int MyList::append(int v) {
 		head = n;
 	// else, add node to end of list
 	} else {
-		Node* temp;
-		temp = head;
+		Node* temp = head;
 		while(temp->next != nullptr) {
 			temp = temp->next;
 		}
@@ -140,23 +145,27 @@ int MyList::append(int v) {
 	return 0;
 }
 
-// clear - frees all memory used by the linked list, leaving head set to null.
+// clear - frees all memory used by the linked
+// list, leaving head set to null.
 void MyList::clear() {
+	Node* temp;
 	while (head != nullptr) {
-		Node* p = head;
+		temp = head;
 		head = head->next;
-		delete p;
+		delete temp;
 	}
 }
 
-// print - displays the contents of the list to the screen.
+// print - displays the contents of the list
+// to the screen.
 void MyList::print() const {
-	Node* temp;
-	temp = head;
+	Node* temp = head;
 
-	if(head == nullptr) {
+	if(isEmpty()) {
 		cout << "List is empty" << endl;
+		return;
 	}
+
 	while(temp != nullptr) {
 		cout << temp->value << " ";
 		temp = temp->next;

@@ -1,1357 +1,493 @@
-17:14:21 **** Build of configuration Debug for project Practice ****
-make all 
-Building file: ../HelloWorld.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"HelloWorld.d" -MT"HelloWorld.o" -o "HelloWorld.o" "../HelloWorld.cpp"
-Finished building: ../HelloWorld.cpp
- 
-Building target: Practice
-Invoking: MacOS X C++ Linker
-g++  -o "Practice"  ./HelloWorld.o   
-Finished building target: Practice
- 
-17:15:03 **** Incremental Build of configuration Debug for project Practice ****
+11:35:32 **** Incremental Build of configuration Debug for project linkedlist ****
 make all 
 make: Nothing to be done for `all'.
-17:23:44 **** Incremental Build of configuration Debug for project Practice ****
+11:35:39 **** Incremental Build of configuration Debug for project linkedlist ****
 make all 
 make: Nothing to be done for `all'.
-09:36:44 **** Incremental Build of configuration Debug for project Practice ****
+11:50:44 **** Incremental Build of configuration Debug for project 301_lab ****
 make all 
 make: Nothing to be done for `all'.
-09:36:44 **** Build of configuration Debug for project hw1 ****
-make all 
-Building file: ../MyList.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"MyList.d" -MT"MyList.o" -o "MyList.o" "../MyList.cpp"
-Finished building: ../MyList.cpp
- 
-Building target: hw1
-Invoking: MacOS X C++ Linker
-g++  -o "hw1"  ./MyList.o   
-Undefined symbols for architecture x86_64:
-  "_main", referenced from:
-     implicit entry/start for main executable
-ld: symbol(s) not found for architecture x86_64
-clang: error: linker command failed with exit code 1 (use -v to see invocation)
-make: *** [hw1] Error 1
-09:38:21 **** Incremental Build of configuration Debug for project Practice ****
-make all 
-make: Nothing to be done for `all'.
-09:38:22 **** Incremental Build of configuration Debug for project hw1 ****
-make all 
-Building target: hw1
-Invoking: MacOS X C++ Linker
-g++  -o "hw1"  ./MyList.o   
-Undefined symbols for architecture x86_64:
-  "_main", referenced from:
-     implicit entry/start for main executable
-ld: symbol(s) not found for architecture x86_64
-clang: error: linker command failed with exit code 1 (use -v to see invocation)
-make: *** [hw1] Error 1
-15:19:55 **** Incremental Build of configuration Debug for project Practice ****
-make all 
-make: Nothing to be done for `all'.
-15:19:55 **** Incremental Build of configuration Debug for project hw1 ****
-make all 
-Building target: hw1
-Invoking: MacOS X C++ Linker
-g++  -o "hw1"  ./MyList.o   
-Undefined symbols for architecture x86_64:
-  "_main", referenced from:
-     implicit entry/start for main executable
-ld: symbol(s) not found for architecture x86_64
-clang: error: linker command failed with exit code 1 (use -v to see invocation)
-make: *** [hw1] Error 1
-15:22:46 **** Incremental Build of configuration Debug for project Practice ****
-make all 
-make: Nothing to be done for `all'.
-15:22:46 **** Incremental Build of configuration Debug for project hw1 ****
-make all 
-Building target: hw1
-Invoking: MacOS X C++ Linker
-g++  -o "hw1"  ./MyList.o   
-Undefined symbols for architecture x86_64:
-  "_main", referenced from:
-     implicit entry/start for main executable
-ld: symbol(s) not found for architecture x86_64
-clang: error: linker command failed with exit code 1 (use -v to see invocation)
-make: *** [hw1] Error 1
-15:25:03 **** Incremental Build of configuration Debug for project Practice ****
-make all 
-make: Nothing to be done for `all'.
-15:25:03 **** Incremental Build of configuration Debug for project hw1 ****
-make all 
-Building target: hw1
-Invoking: MacOS X C++ Linker
-g++  -o "hw1"  ./MyList.o   
-Undefined symbols for architecture x86_64:
-  "_main", referenced from:
-     implicit entry/start for main executable
-ld: symbol(s) not found for architecture x86_64
-clang: error: linker command failed with exit code 1 (use -v to see invocation)
-make: *** [hw1] Error 1
-15:27:31 **** Incremental Build of configuration Debug for project Practice ****
-make all 
-make: Nothing to be done for `all'.
-15:27:32 **** Incremental Build of configuration Debug for project hw1 ****
-make all 
-Building target: hw1
-Invoking: MacOS X C++ Linker
-g++  -o "hw1"  ./MyList.o   
-Undefined symbols for architecture x86_64:
-  "_main", referenced from:
-     implicit entry/start for main executable
-ld: symbol(s) not found for architecture x86_64
-clang: error: linker command failed with exit code 1 (use -v to see invocation)
-make: *** [hw1] Error 1
-15:27:45 **** Incremental Build of configuration Debug for project Practice ****
-make all 
-make: Nothing to be done for `all'.
-15:27:45 **** Incremental Build of configuration Debug for project hw1 ****
-make all 
-Building target: hw1
-Invoking: MacOS X C++ Linker
-g++  -o "hw1"  ./MyList.o   
-Undefined symbols for architecture x86_64:
-  "_main", referenced from:
-     implicit entry/start for main executable
-ld: symbol(s) not found for architecture x86_64
-clang: error: linker command failed with exit code 1 (use -v to see invocation)
-make: *** [hw1] Error 1
-15:28:15 **** Incremental Build of configuration Debug for project hw1 ****
-make all 
-Building target: hw1
-Invoking: MacOS X C++ Linker
-g++  -o "hw1"  ./MyList.o   
-Undefined symbols for architecture x86_64:
-  "_main", referenced from:
-     implicit entry/start for main executable
-ld: symbol(s) not found for architecture x86_64
-clang: error: linker command failed with exit code 1 (use -v to see invocation)
-make: *** [hw1] Error 1
-15:42:29 **** Incremental Build of configuration Debug for project hw1 ****
-make all 
-Building target: hw1
-Invoking: MacOS X C++ Linker
-g++  -o "hw1"  ./MyList.o   
-Undefined symbols for architecture x86_64:
-  "_main", referenced from:
-     implicit entry/start for main executable
-ld: symbol(s) not found for architecture x86_64
-clang: error: linker command failed with exit code 1 (use -v to see invocation)
-make: *** [hw1] Error 1
-15:44:03 **** Incremental Build of configuration Debug for project hw1 ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o MyList.o ../MyList.cpp 
-g++ -o hw1 MyList.o 
-Undefined symbols for architecture x86_64:
-  "_main", referenced from:
-     implicit entry/start for main executable
-ld: symbol(s) not found for architecture x86_64
-clang: error: linker command failed with exit code 1 (use -v to see invocation)
-15:45:07 **** Incremental Build of configuration Debug for project hw1 ****
-make all 
-Building target: hw1
-Invoking: MacOS X C++ Linker
-g++  -o "hw1"  ./MyList.o   
-Undefined symbols for architecture x86_64:
-  "_main", referenced from:
-     implicit entry/start for main executable
-ld: symbol(s) not found for architecture x86_64
-clang: error: linker command failed with exit code 1 (use -v to see invocation)
-make: *** [hw1] Error 1
-15:45:22 **** Incremental Build of configuration Debug for project hw1 ****
-make all 
-Building target: hw1
-Invoking: MacOS X C++ Linker
-g++  -o "hw1"  ./MyList.o   
-Undefined symbols for architecture x86_64:
-  "_main", referenced from:
-     implicit entry/start for main executable
-ld: symbol(s) not found for architecture x86_64
-clang: error: linker command failed with exit code 1 (use -v to see invocation)
-make: *** [hw1] Error 1
-16:51:25 **** Incremental Build of configuration Debug for project hw1 ****
-make all 
-Building target: hw1
-Invoking: MacOS X C++ Linker
-g++  -o "hw1"  ./MyList.o   
-Undefined symbols for architecture x86_64:
-  "_main", referenced from:
-     implicit entry/start for main executable
-ld: symbol(s) not found for architecture x86_64
-clang: error: linker command failed with exit code 1 (use -v to see invocation)
-make: *** [hw1] Error 1
-17:58:25 **** Incremental Build of configuration Debug for project hw1 ****
-make all 
-Building target: hw1
-Invoking: MacOS X C++ Linker
-g++  -o "hw1"  ./MyList.o   
-Undefined symbols for architecture x86_64:
-  "_main", referenced from:
-     implicit entry/start for main executable
-ld: symbol(s) not found for architecture x86_64
-clang: error: linker command failed with exit code 1 (use -v to see invocation)
-make: *** [hw1] Error 1
-17:59:39 **** Incremental Build of configuration Debug for project hw1 ****
-make all 
-Building target: hw1
-Invoking: MacOS X C++ Linker
-g++  -o "hw1"  ./MyList.o   
-Undefined symbols for architecture x86_64:
-  "_main", referenced from:
-     implicit entry/start for main executable
-ld: symbol(s) not found for architecture x86_64
-clang: error: linker command failed with exit code 1 (use -v to see invocation)
-make: *** [hw1] Error 1
-18:04:18 **** Incremental Build of configuration Debug for project hw1 ****
+11:50:44 **** Build of configuration Debug for project array ****
 make all 
 Building file: ../main.cpp
 Invoking: GCC C++ Compiler
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-In file included from ../main.cpp:9:
-../MyList.h:85:6: warning: variable 'removedValue' is used uninitialized whenever 'if' condition is true [-Wsometimes-uninitialized]
-                if(prev == nullptr) {
-                   ^~~~~~~~~~~~~~~
-../MyList.h:93:9: note: uninitialized use occurs here
-        return removedValue;
-               ^~~~~~~~~~~~
-../MyList.h:85:3: note: remove the 'if' if its condition is always false
-                if(prev == nullptr) {
-                ^~~~~~~~~~~~~~~~~~~~~
-../MyList.h:84:5: warning: variable 'removedValue' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
-        if(temp != nullptr) {
-           ^~~~~~~~~~~~~~~
-../MyList.h:93:9: note: uninitialized use occurs here
-        return removedValue;
-               ^~~~~~~~~~~~
-../MyList.h:84:2: note: remove the 'if' if its condition is always true
-        if(temp != nullptr) {
-        ^~~~~~~~~~~~~~~~~~~~
-../MyList.h:77:18: note: initialize the variable 'removedValue' to silence this warning
-        int removedValue;
-                        ^
-                         = 0
-../MyList.h:99:10: warning: implicit conversion of NULL constant to 'int' [-Wnull-conversion]
-                return NULL;
-                ~~~~~~ ^~~~
-                       0
-3 warnings generated.
 Finished building: ../main.cpp
  
-Building target: hw1
+Building target: array
 Invoking: MacOS X C++ Linker
-g++  -o "hw1"  ./main.o   
-Finished building target: hw1
+g++  -o "array"  ./main.o   
+Finished building target: array
  
-18:04:27 **** Incremental Build of configuration Debug for project hw1 ****
+11:50:44 **** Incremental Build of configuration Debug for project linkedlist ****
 make all 
 make: Nothing to be done for `all'.
-18:05:10 **** Incremental Build of configuration Debug for project hw1 ****
+12:25:35 **** Incremental Build of configuration Debug for project 301_lab ****
 make all 
 make: Nothing to be done for `all'.
-18:05:17 **** Incremental Build of configuration Debug for project hw1 ****
+12:25:36 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+12:25:36 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+12:26:05 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+12:26:05 **** Incremental Build of configuration Debug for project array ****
 make all 
 Building file: ../main.cpp
 Invoking: GCC C++ Compiler
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-In file included from ../main.cpp:9:
-../MyList.h:85:6: warning: variable 'removedValue' is used uninitialized whenever 'if' condition is true [-Wsometimes-uninitialized]
-                if(prev == nullptr) {
-                   ^~~~~~~~~~~~~~~
-../MyList.h:93:9: note: uninitialized use occurs here
-        return removedValue;
-               ^~~~~~~~~~~~
-../MyList.h:85:3: note: remove the 'if' if its condition is always false
-                if(prev == nullptr) {
-                ^~~~~~~~~~~~~~~~~~~~~
-../MyList.h:84:5: warning: variable 'removedValue' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
-        if(temp != nullptr) {
-           ^~~~~~~~~~~~~~~
-../MyList.h:93:9: note: uninitialized use occurs here
-        return removedValue;
-               ^~~~~~~~~~~~
-../MyList.h:84:2: note: remove the 'if' if its condition is always true
-        if(temp != nullptr) {
-        ^~~~~~~~~~~~~~~~~~~~
-../MyList.h:77:18: note: initialize the variable 'removedValue' to silence this warning
-        int removedValue;
-                        ^
-                         = 0
-../MyList.h:99:10: warning: implicit conversion of NULL constant to 'int' [-Wnull-conversion]
-                return NULL;
-                ~~~~~~ ^~~~
-                       0
-3 warnings generated.
-Finished building: ../main.cpp
- 
-Building target: hw1
-Invoking: MacOS X C++ Linker
-g++  -o "hw1"  ./main.o   
-Finished building target: hw1
- 
-18:05:20 **** Incremental Build of configuration Debug for project hw1 ****
-make all 
-make: Nothing to be done for `all'.
-18:05:39 **** Incremental Build of configuration Debug for project hw1 ****
-make all 
-make: Nothing to be done for `all'.
-18:05:46 **** Incremental Build of configuration Debug for project hw1 ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-In file included from ../main.cpp:9:
-../MyList.h:85:6: warning: variable 'removedValue' is used uninitialized whenever 'if' condition is true [-Wsometimes-uninitialized]
-                if(prev == nullptr) {
-                   ^~~~~~~~~~~~~~~
-../MyList.h:93:9: note: uninitialized use occurs here
-        return removedValue;
-               ^~~~~~~~~~~~
-../MyList.h:85:3: note: remove the 'if' if its condition is always false
-                if(prev == nullptr) {
-                ^~~~~~~~~~~~~~~~~~~~~
-../MyList.h:84:5: warning: variable 'removedValue' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
-        if(temp != nullptr) {
-           ^~~~~~~~~~~~~~~
-../MyList.h:93:9: note: uninitialized use occurs here
-        return removedValue;
-               ^~~~~~~~~~~~
-../MyList.h:84:2: note: remove the 'if' if its condition is always true
-        if(temp != nullptr) {
-        ^~~~~~~~~~~~~~~~~~~~
-../MyList.h:77:18: note: initialize the variable 'removedValue' to silence this warning
-        int removedValue;
-                        ^
-                         = 0
-../MyList.h:99:10: warning: implicit conversion of NULL constant to 'int' [-Wnull-conversion]
-                return NULL;
-                ~~~~~~ ^~~~
-                       0
-3 warnings generated.
-Finished building: ../main.cpp
- 
-Building target: hw1
-Invoking: MacOS X C++ Linker
-g++  -o "hw1"  ./main.o   
-Finished building target: hw1
- 
-18:05:48 **** Incremental Build of configuration Debug for project hw1 ****
-make all 
-make: Nothing to be done for `all'.
-18:06:19 **** Incremental Build of configuration Debug for project hw1 ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-In file included from ../main.cpp:9:
-../MyList.h:85:6: warning: variable 'removedValue' is used uninitialized whenever 'if' condition is true [-Wsometimes-uninitialized]
-                if(prev == nullptr) {
-                   ^~~~~~~~~~~~~~~
-../MyList.h:93:9: note: uninitialized use occurs here
-        return removedValue;
-               ^~~~~~~~~~~~
-../MyList.h:85:3: note: remove the 'if' if its condition is always false
-                if(prev == nullptr) {
-                ^~~~~~~~~~~~~~~~~~~~~
-../MyList.h:84:5: warning: variable 'removedValue' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
-        if(temp != nullptr) {
-           ^~~~~~~~~~~~~~~
-../MyList.h:93:9: note: uninitialized use occurs here
-        return removedValue;
-               ^~~~~~~~~~~~
-../MyList.h:84:2: note: remove the 'if' if its condition is always true
-        if(temp != nullptr) {
-        ^~~~~~~~~~~~~~~~~~~~
-../MyList.h:77:18: note: initialize the variable 'removedValue' to silence this warning
-        int removedValue;
-                        ^
-                         = 0
-../MyList.h:99:10: warning: implicit conversion of NULL constant to 'int' [-Wnull-conversion]
-                return NULL;
-                ~~~~~~ ^~~~
-                       0
-../main.cpp:28:2: error: invalid argument type 'MyList' to unary expression
-        ~list;
-        ^~~~~
-3 warnings and 1 error generated.
-make: *** [main.o] Error 1
-18:07:15 **** Incremental Build of configuration Debug for project hw1 ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-In file included from ../main.cpp:9:
-../MyList.h:85:6: warning: variable 'removedValue' is used uninitialized whenever 'if' condition is true [-Wsometimes-uninitialized]
-                if(prev == nullptr) {
-                   ^~~~~~~~~~~~~~~
-../MyList.h:93:9: note: uninitialized use occurs here
-        return removedValue;
-               ^~~~~~~~~~~~
-../MyList.h:85:3: note: remove the 'if' if its condition is always false
-                if(prev == nullptr) {
-                ^~~~~~~~~~~~~~~~~~~~~
-../MyList.h:84:5: warning: variable 'removedValue' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
-        if(temp != nullptr) {
-           ^~~~~~~~~~~~~~~
-../MyList.h:93:9: note: uninitialized use occurs here
-        return removedValue;
-               ^~~~~~~~~~~~
-../MyList.h:84:2: note: remove the 'if' if its condition is always true
-        if(temp != nullptr) {
-        ^~~~~~~~~~~~~~~~~~~~
-../MyList.h:77:18: note: initialize the variable 'removedValue' to silence this warning
-        int removedValue;
-                        ^
-                         = 0
-../MyList.h:99:10: warning: implicit conversion of NULL constant to 'int' [-Wnull-conversion]
-                return NULL;
-                ~~~~~~ ^~~~
-                       0
-3 warnings generated.
-Finished building: ../main.cpp
- 
-Building target: hw1
-Invoking: MacOS X C++ Linker
-g++  -o "hw1"  ./main.o   
-Finished building target: hw1
- 
-18:08:11 **** Incremental Build of configuration Debug for project hw1 ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-In file included from ../main.cpp:9:
-../MyList.h:91:1: warning: control reaches end of non-void function [-Wreturn-type]
-}
+../main.cpp:8:10: error: 'UnsortedList.h' file not found with <angled> include; use "quotes" instead
+#include <UnsortedList.h>
+         ^~~~~~~~~~~~~~~~
+         "UnsortedList.h"
+In file included from ../main.cpp:8:
+../UnsortedList.h:107:3: error: use of undeclared identifier 'cout'; did you mean 'std::cout'?
+                cout << list[i] << " ";
+                ^~~~
+                std::cout
+/Library/Developer/CommandLineTools/usr/include/c++/v1/iostream:54:33: note: 'std::cout' declared here
+extern _LIBCPP_FUNC_VIS ostream cout;
+                                ^
+In file included from ../main.cpp:8:
+../UnsortedList.h:109:2: error: use of undeclared identifier 'cout'; did you mean 'std::cout'?
+        cout << endl;
+        ^~~~
+        std::cout
+/Library/Developer/CommandLineTools/usr/include/c++/v1/iostream:54:33: note: 'std::cout' declared here
+extern _LIBCPP_FUNC_VIS ostream cout;
+                                ^
+In file included from ../main.cpp:8:
+../UnsortedList.h:109:10: error: use of undeclared identifier 'endl'; did you mean 'std::endl'?
+        cout << endl;
+                ^~~~
+                std::endl
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:999:1: note: 'std::endl' declared here
+endl(basic_ostream<_CharT, _Traits>& __os)
 ^
-../MyList.h:96:10: warning: implicit conversion of NULL constant to 'int' [-Wnull-conversion]
-                return NULL;
-                ~~~~~~ ^~~~
-                       0
-2 warnings generated.
-Finished building: ../main.cpp
- 
-Building target: hw1
-Invoking: MacOS X C++ Linker
-g++  -o "hw1"  ./main.o   
-Finished building target: hw1
- 
-18:08:16 **** Incremental Build of configuration Debug for project hw1 ****
-make all 
-make: Nothing to be done for `all'.
-18:08:52 **** Incremental Build of configuration Debug for project hw1 ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-In file included from ../main.cpp:9:
-../MyList.h:97:10: warning: implicit conversion of NULL constant to 'int' [-Wnull-conversion]
-                return NULL;
-                ~~~~~~ ^~~~
-                       0
-1 warning generated.
-Finished building: ../main.cpp
- 
-Building target: hw1
-Invoking: MacOS X C++ Linker
-g++  -o "hw1"  ./main.o   
-Finished building target: hw1
- 
-18:08:56 **** Incremental Build of configuration Debug for project hw1 ****
-make all 
-make: Nothing to be done for `all'.
-18:09:23 **** Incremental Build of configuration Debug for project hw1 ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-In file included from ../main.cpp:9:
-../MyList.h:97:10: warning: implicit conversion of NULL constant to 'int' [-Wnull-conversion]
-                return NULL;
-                ~~~~~~ ^~~~
-                       0
-1 warning generated.
-Finished building: ../main.cpp
- 
-Building target: hw1
-Invoking: MacOS X C++ Linker
-g++  -o "hw1"  ./main.o   
-Finished building target: hw1
- 
-18:09:25 **** Incremental Build of configuration Debug for project hw1 ****
-make all 
-make: Nothing to be done for `all'.
-18:13:06 **** Incremental Build of configuration Debug for project hw1 ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-In file included from ../main.cpp:9:
-../MyList.h:101:10: warning: implicit conversion of NULL constant to 'int' [-Wnull-conversion]
-                return NULL;
-                ~~~~~~ ^~~~
-                       0
-1 warning generated.
-Finished building: ../main.cpp
- 
-Building target: hw1
-Invoking: MacOS X C++ Linker
-g++  -o "hw1"  ./main.o   
-Finished building target: hw1
- 
-18:13:07 **** Incremental Build of configuration Debug for project hw1 ****
-make all 
-make: Nothing to be done for `all'.
-18:23:23 **** Incremental Build of configuration Debug for project hw1 ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-Finished building: ../main.cpp
- 
-Building target: hw1
-Invoking: MacOS X C++ Linker
-g++  -o "hw1"  ./main.o   
-Finished building target: hw1
- 
-18:23:30 **** Incremental Build of configuration Debug for project hw1 ****
-make all 
-make: Nothing to be done for `all'.
-18:23:35 **** Incremental Build of configuration Debug for project hw1 ****
-make all 
-make: Nothing to be done for `all'.
-18:24:04 **** Incremental Build of configuration Debug for project hw1 ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-Finished building: ../main.cpp
- 
-Building target: hw1
-Invoking: MacOS X C++ Linker
-g++  -o "hw1"  ./main.o   
-Finished building target: hw1
- 
-18:24:07 **** Incremental Build of configuration Debug for project hw1 ****
-make all 
-make: Nothing to be done for `all'.
-18:28:19 **** Incremental Build of configuration Debug for project hw1 ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-Finished building: ../main.cpp
- 
-Building target: hw1
-Invoking: MacOS X C++ Linker
-g++  -o "hw1"  ./main.o   
-Finished building target: hw1
- 
-18:28:23 **** Incremental Build of configuration Debug for project hw1 ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-In file included from ../main.cpp:9:
-../MyList.h:40:13: error: out-of-line definition of 'getHead' does not match any declaration in 'MyList'
-int MyList::getHead() const {
-            ^~~~~~~
-1 error generated.
-make: *** [main.o] Error 1
-18:28:47 **** Incremental Build of configuration Debug for project hw1 ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-Finished building: ../main.cpp
- 
-Building target: hw1
-Invoking: MacOS X C++ Linker
-g++  -o "hw1"  ./main.o   
-Finished building target: hw1
- 
-18:28:50 **** Incremental Build of configuration Debug for project hw1 ****
-make all 
-make: Nothing to be done for `all'.
-18:39:16 **** Incremental Build of configuration Debug for project hw1 ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-Finished building: ../main.cpp
- 
-Building target: hw1
-Invoking: MacOS X C++ Linker
-g++  -o "hw1"  ./main.o   
-Finished building target: hw1
- 
-18:39:37 **** Incremental Build of configuration Debug for project hw1 ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-Finished building: ../main.cpp
- 
-Building target: hw1
-Invoking: MacOS X C++ Linker
-g++  -o "hw1"  ./main.o   
-Finished building target: hw1
- 
-18:39:53 **** Incremental Build of configuration Debug for project hw1 ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-Finished building: ../main.cpp
- 
-Building target: hw1
-Invoking: MacOS X C++ Linker
-g++  -o "hw1"  ./main.o   
-Finished building target: hw1
- 
-18:41:01 **** Incremental Build of configuration Debug for project hw1 ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-Finished building: ../main.cpp
- 
-Building target: hw1
-Invoking: MacOS X C++ Linker
-g++  -o "hw1"  ./main.o   
-Finished building target: hw1
- 
-13:55:07 **** Clean-only build of configuration Debug for project linkedlist ****
-make clean 
-rm -rf  ./main.o  ./main.d  hw1
- 
-13:55:07 **** Build of configuration Debug for project linkedlist ****
-make all 
-Building file: ../.metadata/.plugins/org.eclipse.cdt.make.core/specs.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF".metadata/.plugins/org.eclipse.cdt.make.core/specs.d" -MT".metadata/.plugins/org.eclipse.cdt.make.core/specs.o" -o ".metadata/.plugins/org.eclipse.cdt.make.core/specs.o" "../.metadata/.plugins/org.eclipse.cdt.make.core/specs.c"
-Finished building: ../.metadata/.plugins/org.eclipse.cdt.make.core/specs.c
- 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-In file included from ../main.cpp:9:
-../MyList.h:111:2: warning: variable 'n' is uninitialized when used here [-Wuninitialized]
-        n->value = v;
-        ^
-../MyList.h:110:9: note: initialize the variable 'n' to silence this warning
-        Node* n;
-               ^
-                = NULL
-1 warning generated.
-Finished building: ../main.cpp
- 
-Building target: linkedlist
-Invoking: MacOS X C++ Linker
-g++  -o "linkedlist"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
-Finished building target: linkedlist
- 
-13:55:12 **** Incremental Build of configuration Debug for project linkedlist ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-In file included from ../main.cpp:9:
-../MyList.h:111:2: warning: variable 'n' is uninitialized when used here [-Wuninitialized]
-        n->value = v;
-        ^
-../MyList.h:110:9: note: initialize the variable 'n' to silence this warning
-        Node* n;
-               ^
-                = NULL
-1 warning generated.
-Finished building: ../main.cpp
- 
-Building target: linkedlist
-Invoking: MacOS X C++ Linker
-g++  -o "linkedlist"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
-Finished building target: linkedlist
- 
-13:55:30 **** Incremental Build of configuration Debug for project linkedlist ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-Finished building: ../main.cpp
- 
-Building target: linkedlist
-Invoking: MacOS X C++ Linker
-g++  -o "linkedlist"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
-Finished building target: linkedlist
- 
-17:24:43 **** Incremental Build of configuration Debug for project linkedlist ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-Finished building: ../main.cpp
- 
-Building target: linkedlist
-Invoking: MacOS X C++ Linker
-g++  -o "linkedlist"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
-Finished building target: linkedlist
- 
-17:25:06 **** Incremental Build of configuration Debug for project linkedlist ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-Finished building: ../main.cpp
- 
-Building target: linkedlist
-Invoking: MacOS X C++ Linker
-g++  -o "linkedlist"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
-Finished building target: linkedlist
- 
-17:25:23 **** Incremental Build of configuration Debug for project linkedlist ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-Finished building: ../main.cpp
- 
-Building target: linkedlist
-Invoking: MacOS X C++ Linker
-g++  -o "linkedlist"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
-Finished building target: linkedlist
- 
-17:25:50 **** Incremental Build of configuration Debug for project linkedlist ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-Finished building: ../main.cpp
- 
-Building target: linkedlist
-Invoking: MacOS X C++ Linker
-g++  -o "linkedlist"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
-Finished building target: linkedlist
- 
-17:26:14 **** Incremental Build of configuration Debug for project linkedlist ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-Finished building: ../main.cpp
- 
-Building target: linkedlist
-Invoking: MacOS X C++ Linker
-g++  -o "linkedlist"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
-Finished building target: linkedlist
- 
-17:26:28 **** Incremental Build of configuration Debug for project linkedlist ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-Finished building: ../main.cpp
- 
-Building target: linkedlist
-Invoking: MacOS X C++ Linker
-g++  -o "linkedlist"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
-Finished building target: linkedlist
- 
-17:28:39 **** Incremental Build of configuration Debug for project linkedlist ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-Finished building: ../main.cpp
- 
-Building target: linkedlist
-Invoking: MacOS X C++ Linker
-g++  -o "linkedlist"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
-Finished building target: linkedlist
- 
-18:14:22 **** Incremental Build of configuration Debug for project linkedlist ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-Finished building: ../main.cpp
- 
-Building target: linkedlist
-Invoking: MacOS X C++ Linker
-g++  -o "linkedlist"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
-Finished building target: linkedlist
- 
-18:14:42 **** Incremental Build of configuration Debug for project linkedlist ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-Finished building: ../main.cpp
- 
-Building target: linkedlist
-Invoking: MacOS X C++ Linker
-g++  -o "linkedlist"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
-Finished building target: linkedlist
- 
-18:15:52 **** Incremental Build of configuration Debug for project linkedlist ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-Finished building: ../main.cpp
- 
-Building target: linkedlist
-Invoking: MacOS X C++ Linker
-g++  -o "linkedlist"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
-Finished building target: linkedlist
- 
-18:17:24 **** Incremental Build of configuration Debug for project linkedlist ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-Finished building: ../main.cpp
- 
-Building target: linkedlist
-Invoking: MacOS X C++ Linker
-g++  -o "linkedlist"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
-Finished building target: linkedlist
- 
-18:17:38 **** Incremental Build of configuration Debug for project linkedlist ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-Finished building: ../main.cpp
- 
-Building target: linkedlist
-Invoking: MacOS X C++ Linker
-g++  -o "linkedlist"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
-Finished building target: linkedlist
- 
-18:18:30 **** Incremental Build of configuration Debug for project linkedlist ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-Finished building: ../main.cpp
- 
-Building target: linkedlist
-Invoking: MacOS X C++ Linker
-g++  -o "linkedlist"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
-Finished building target: linkedlist
- 
-18:22:28 **** Incremental Build of configuration Debug for project linkedlist ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-Finished building: ../main.cpp
- 
-Building target: linkedlist
-Invoking: MacOS X C++ Linker
-g++  -o "linkedlist"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
-Finished building target: linkedlist
- 
-18:32:17 **** Incremental Build of configuration Debug for project linkedlist ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-Finished building: ../main.cpp
- 
-Building target: linkedlist
-Invoking: MacOS X C++ Linker
-g++  -o "linkedlist"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
-Finished building target: linkedlist
- 
-18:32:34 **** Incremental Build of configuration Debug for project linkedlist ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-Finished building: ../main.cpp
- 
-Building target: linkedlist
-Invoking: MacOS X C++ Linker
-g++  -o "linkedlist"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
-Finished building target: linkedlist
- 
-18:33:17 **** Incremental Build of configuration Debug for project linkedlist ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-Finished building: ../main.cpp
- 
-Building target: linkedlist
-Invoking: MacOS X C++ Linker
-g++  -o "linkedlist"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
-Finished building target: linkedlist
- 
-18:34:12 **** Incremental Build of configuration Debug for project linkedlist ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-Finished building: ../main.cpp
- 
-Building target: linkedlist
-Invoking: MacOS X C++ Linker
-g++  -o "linkedlist"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
-Finished building target: linkedlist
- 
-18:34:57 **** Incremental Build of configuration Debug for project linkedlist ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-Finished building: ../main.cpp
- 
-Building target: linkedlist
-Invoking: MacOS X C++ Linker
-g++  -o "linkedlist"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
-Finished building target: linkedlist
- 
-18:35:06 **** Incremental Build of configuration Debug for project linkedlist ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-Finished building: ../main.cpp
- 
-Building target: linkedlist
-Invoking: MacOS X C++ Linker
-g++  -o "linkedlist"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
-Finished building target: linkedlist
- 
-18:35:56 **** Incremental Build of configuration Debug for project linkedlist ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-Finished building: ../main.cpp
- 
-Building target: linkedlist
-Invoking: MacOS X C++ Linker
-g++  -o "linkedlist"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
-Finished building target: linkedlist
- 
-18:37:01 **** Incremental Build of configuration Debug for project linkedlist ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-Finished building: ../main.cpp
- 
-Building target: linkedlist
-Invoking: MacOS X C++ Linker
-g++  -o "linkedlist"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
-Finished building target: linkedlist
- 
-18:37:13 **** Incremental Build of configuration Debug for project linkedlist ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-Finished building: ../main.cpp
- 
-Building target: linkedlist
-Invoking: MacOS X C++ Linker
-g++  -o "linkedlist"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
-Finished building target: linkedlist
- 
-18:37:21 **** Incremental Build of configuration Debug for project linkedlist ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-Finished building: ../main.cpp
- 
-Building target: linkedlist
-Invoking: MacOS X C++ Linker
-g++  -o "linkedlist"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
-Finished building target: linkedlist
- 
-18:38:07 **** Incremental Build of configuration Debug for project linkedlist ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-Finished building: ../main.cpp
- 
-Building target: linkedlist
-Invoking: MacOS X C++ Linker
-g++  -o "linkedlist"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
-Finished building target: linkedlist
- 
-18:38:25 **** Incremental Build of configuration Debug for project linkedlist ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-Finished building: ../main.cpp
- 
-Building target: linkedlist
-Invoking: MacOS X C++ Linker
-g++  -o "linkedlist"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
-Finished building target: linkedlist
- 
-18:39:03 **** Incremental Build of configuration Debug for project linkedlist ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-Finished building: ../main.cpp
- 
-Building target: linkedlist
-Invoking: MacOS X C++ Linker
-g++  -o "linkedlist"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
-Finished building target: linkedlist
- 
-18:39:18 **** Incremental Build of configuration Debug for project linkedlist ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-Finished building: ../main.cpp
- 
-Building target: linkedlist
-Invoking: MacOS X C++ Linker
-g++  -o "linkedlist"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
-Finished building target: linkedlist
- 
-18:40:30 **** Incremental Build of configuration Debug for project linkedlist ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-Finished building: ../main.cpp
- 
-Building target: linkedlist
-Invoking: MacOS X C++ Linker
-g++  -o "linkedlist"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
-Finished building target: linkedlist
- 
-18:40:52 **** Incremental Build of configuration Debug for project linkedlist ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-Finished building: ../main.cpp
- 
-Building target: linkedlist
-Invoking: MacOS X C++ Linker
-g++  -o "linkedlist"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
-Finished building target: linkedlist
- 
-18:41:06 **** Incremental Build of configuration Debug for project linkedlist ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-Finished building: ../main.cpp
- 
-Building target: linkedlist
-Invoking: MacOS X C++ Linker
-g++  -o "linkedlist"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
-Finished building target: linkedlist
- 
-18:41:19 **** Incremental Build of configuration Debug for project linkedlist ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-Finished building: ../main.cpp
- 
-Building target: linkedlist
-Invoking: MacOS X C++ Linker
-g++  -o "linkedlist"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
-Finished building target: linkedlist
- 
-18:41:33 **** Incremental Build of configuration Debug for project linkedlist ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-Finished building: ../main.cpp
- 
-Building target: linkedlist
-Invoking: MacOS X C++ Linker
-g++  -o "linkedlist"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
-Finished building target: linkedlist
- 
-18:50:28 **** Incremental Build of configuration Debug for project linkedlist ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-Finished building: ../main.cpp
- 
-Building target: linkedlist
-Invoking: MacOS X C++ Linker
-g++  -o "linkedlist"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
-Finished building target: linkedlist
- 
-18:55:58 **** Incremental Build of configuration Debug for project linkedlist ****
-make all 
-make: Nothing to be done for `all'.
-18:56:29 **** Incremental Build of configuration Debug for project linkedlist ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-Finished building: ../main.cpp
- 
-Building target: linkedlist
-Invoking: MacOS X C++ Linker
-g++  -o "linkedlist"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
-Finished building target: linkedlist
- 
-19:25:48 **** Incremental Build of configuration Debug for project linkedlist ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-In file included from ../main.cpp:9:
-../MyList.h:47:9: error: cannot initialize return object of type 'int' with an lvalue of type 'MyList::Node *const'
-        return head;
-               ^~~~
-1 error generated.
-make: *** [main.o] Error 1
-19:26:20 **** Incremental Build of configuration Debug for project linkedlist ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-Finished building: ../main.cpp
- 
-Building target: linkedlist
-Invoking: MacOS X C++ Linker
-g++  -o "linkedlist"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
-Finished building target: linkedlist
- 
-19:31:24 **** Incremental Build of configuration Debug for project linkedlist ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-Finished building: ../main.cpp
- 
-Building target: linkedlist
-Invoking: MacOS X C++ Linker
-g++  -o "linkedlist"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
-Finished building target: linkedlist
- 
-19:31:36 **** Incremental Build of configuration Debug for project linkedlist ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-Finished building: ../main.cpp
- 
-Building target: linkedlist
-Invoking: MacOS X C++ Linker
-g++  -o "linkedlist"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
-Finished building target: linkedlist
- 
-19:31:54 **** Incremental Build of configuration Debug for project linkedlist ****
-make all 
-make: Nothing to be done for `all'.
-19:43:01 **** Incremental Build of configuration Debug for project linkedlist ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-Finished building: ../main.cpp
- 
-Building target: linkedlist
-Invoking: MacOS X C++ Linker
-g++  -o "linkedlist"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
-Finished building target: linkedlist
- 
-19:43:29 **** Incremental Build of configuration Debug for project linkedlist ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-Finished building: ../main.cpp
- 
-Building target: linkedlist
-Invoking: MacOS X C++ Linker
-g++  -o "linkedlist"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
-Finished building target: linkedlist
- 
-19:44:28 **** Incremental Build of configuration Debug for project linkedlist ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-In file included from ../main.cpp:9:
-../MyList.h:126:2: warning: variable 'n' is uninitialized when used here [-Wuninitialized]
-        n->value = v;
-        ^
-../MyList.h:125:9: note: initialize the variable 'n' to silence this warning
-        Node* n;
-               ^
-                = NULL
-1 warning generated.
-Finished building: ../main.cpp
- 
-Building target: linkedlist
-Invoking: MacOS X C++ Linker
-g++  -o "linkedlist"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
-Finished building target: linkedlist
- 
-19:48:33 **** Incremental Build of configuration Debug for project linkedlist ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-Finished building: ../main.cpp
- 
-Building target: linkedlist
-Invoking: MacOS X C++ Linker
-g++  -o "linkedlist"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
-Finished building target: linkedlist
- 
-19:50:52 **** Incremental Build of configuration Debug for project linkedlist ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-In file included from ../main.cpp:9:
-../MyList.h:89:8: error: redefinition of 'prev' with a different type: 'MyList::Node *' vs 'MyList::Node'
-        Node* prev;
-              ^
-../MyList.h:87:14: note: previous definition is here
-        Node* temp, prev;
-                    ^
-../MyList.h:90:7: error: no viable overloaded '='
-        prev = nullptr;
-        ~~~~ ^ ~~~~~~~
-../MyList.h:15:9: note: candidate function (the implicit copy assignment operator) not viable: no known conversion from 'std::__1::nullptr_t' to 'const MyList::Node' for 1st argument
-        struct Node {
-               ^
-../MyList.h:94:8: error: no viable overloaded '='
-                prev = temp;
-                ~~~~ ^ ~~~~
-../MyList.h:15:9: note: candidate function (the implicit copy assignment operator) not viable: no known conversion from 'MyList::Node *' to 'const MyList::Node' for 1st argument; dereference the argument with *
-        struct Node {
-               ^
-../MyList.h:101:11: error: invalid operands to binary expression ('MyList::Node' and 'std::__1::nullptr_t')
-                if(prev == nullptr) {
-                   ~~~~ ^  ~~~~~~~
-../MyList.h:105:8: error: member reference type 'MyList::Node' is not a pointer; did you mean to use '.'?
-                        prev->next = temp->next;
-                        ~~~~^~
-                            .
+../main.cpp:21:2: error: use of undeclared identifier 'myList'; did you mean 'mylist'?
+        myList.print();
+        ^~~~~~
+        mylist
+../main.cpp:14:15: note: 'mylist' declared here
+        UnsortedList mylist(5);
+                     ^
 5 errors generated.
 make: *** [main.o] Error 1
-19:51:02 **** Incremental Build of configuration Debug for project linkedlist ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-Finished building: ../main.cpp
- 
-Building target: linkedlist
-Invoking: MacOS X C++ Linker
-g++  -o "linkedlist"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
-Finished building target: linkedlist
- 
-19:58:32 **** Incremental Build of configuration Debug for project linkedlist ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-Finished building: ../main.cpp
- 
-Building target: linkedlist
-Invoking: MacOS X C++ Linker
-g++  -o "linkedlist"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
-Finished building target: linkedlist
- 
-19:58:50 **** Incremental Build of configuration Debug for project linkedlist ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-Finished building: ../main.cpp
- 
-Building target: linkedlist
-Invoking: MacOS X C++ Linker
-g++  -o "linkedlist"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
-Finished building target: linkedlist
- 
-20:06:03 **** Incremental Build of configuration Debug for project linkedlist ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-Finished building: ../main.cpp
- 
-Building target: linkedlist
-Invoking: MacOS X C++ Linker
-g++  -o "linkedlist"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
-Finished building target: linkedlist
- 
-20:08:42 **** Incremental Build of configuration Debug for project linkedlist ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-Finished building: ../main.cpp
- 
-Building target: linkedlist
-Invoking: MacOS X C++ Linker
-g++  -o "linkedlist"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
-Finished building target: linkedlist
- 
-13:46:41 **** Incremental Build of configuration Debug for project linkedlist ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-In file included from ../main.cpp:9:
-../MyList.h:90:7: error: no viable overloaded '='
-        prev = nullptr;
-        ~~~~ ^ ~~~~~~~
-../MyList.h:15:9: note: candidate function (the implicit copy assignment operator) not viable: no known conversion from 'std::__1::nullptr_t' to 'const MyList::Node' for 1st argument
-        struct Node {
-               ^
-../MyList.h:94:8: error: no viable overloaded '='
-                prev = temp;
-                ~~~~ ^ ~~~~
-../MyList.h:15:9: note: candidate function (the implicit copy assignment operator) not viable: no known conversion from 'MyList::Node *' to 'const MyList::Node' for 1st argument; dereference the argument with *
-        struct Node {
-               ^
-../MyList.h:101:11: error: invalid operands to binary expression ('MyList::Node' and 'std::__1::nullptr_t')
-                if(prev == nullptr) {
-                   ~~~~ ^  ~~~~~~~
-../MyList.h:105:8: error: member reference type 'MyList::Node' is not a pointer; did you mean to use '.'?
-                        prev->next = temp->next;
-                        ~~~~^~
-                            .
-4 errors generated.
-make: *** [main.o] Error 1
-13:47:12 **** Incremental Build of configuration Debug for project linkedlist ****
-make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
-Finished building: ../main.cpp
- 
-Building target: linkedlist
-Invoking: MacOS X C++ Linker
-g++  -o "linkedlist"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
-Finished building target: linkedlist
- 
-13:47:17 **** Incremental Build of configuration Debug for project linkedlist ****
+12:26:06 **** Incremental Build of configuration Debug for project linkedlist ****
 make all 
 make: Nothing to be done for `all'.
-13:50:53 **** Incremental Build of configuration Debug for project linkedlist ****
+12:26:28 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+12:26:28 **** Incremental Build of configuration Debug for project array ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp:8:10: error: 'UnsortedList.h' file not found with <angled> include; use "quotes" instead
+#include <UnsortedList.h>
+         ^~~~~~~~~~~~~~~~
+         "UnsortedList.h"
+../main.cpp:21:2: error: use of undeclared identifier 'myList'; did you mean 'mylist'?
+        myList.print();
+        ^~~~~~
+        mylist
+../main.cpp:14:15: note: 'mylist' declared here
+        UnsortedList mylist(5);
+                     ^
+2 errors generated.
+make: *** [main.o] Error 1
+12:26:28 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+12:26:32 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+12:26:32 **** Incremental Build of configuration Debug for project array ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp:8:10: error: 'UnsortedList.h' file not found with <angled> include; use "quotes" instead
+#include <UnsortedList.h>
+         ^~~~~~~~~~~~~~~~
+         "UnsortedList.h"
+../main.cpp:21:2: error: use of undeclared identifier 'myList'; did you mean 'mylist'?
+        myList.print();
+        ^~~~~~
+        mylist
+../main.cpp:14:15: note: 'mylist' declared here
+        UnsortedList mylist(5);
+                     ^
+2 errors generated.
+make: *** [main.o] Error 1
+12:26:33 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+12:26:36 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+12:26:41 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+12:27:08 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+12:28:09 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+12:28:09 **** Incremental Build of configuration Debug for project array ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp:8:10: error: 'UnsortedList.h' file not found with <angled> include; use "quotes" instead
+#include <UnsortedList.h>
+         ^~~~~~~~~~~~~~~~
+         "UnsortedList.h"
+../main.cpp:21:2: error: use of undeclared identifier 'myList'; did you mean 'mylist'?
+        myList.print();
+        ^~~~~~
+        mylist
+../main.cpp:14:15: note: 'mylist' declared here
+        UnsortedList mylist(5);
+                     ^
+2 errors generated.
+make: *** [main.o] Error 1
+12:28:10 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+12:28:59 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+12:28:59 **** Incremental Build of configuration Debug for project array ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp:21:2: error: use of undeclared identifier 'myList'; did you mean 'mylist'?
+        myList.print();
+        ^~~~~~
+        mylist
+../main.cpp:14:15: note: 'mylist' declared here
+        UnsortedList mylist(5);
+                     ^
+1 error generated.
+make: *** [main.o] Error 1
+12:28:59 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+12:29:11 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+12:32:54 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+12:32:55 **** Incremental Build of configuration Debug for project array ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: array
+Invoking: MacOS X C++ Linker
+g++  -o "array"  ./main.o   
+Finished building target: array
+ 
+12:32:55 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+12:33:08 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+12:33:29 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+12:33:29 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+12:33:29 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+12:34:03 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+12:34:03 **** Incremental Build of configuration Debug for project array ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: array
+Invoking: MacOS X C++ Linker
+g++  -o "array"  ./main.o   
+Finished building target: array
+ 
+12:34:04 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+12:34:06 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+12:34:19 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+12:34:20 **** Incremental Build of configuration Debug for project array ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: array
+Invoking: MacOS X C++ Linker
+g++  -o "array"  ./main.o   
+Finished building target: array
+ 
+12:34:20 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+12:34:23 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+12:35:03 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+12:35:03 **** Incremental Build of configuration Debug for project array ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: array
+Invoking: MacOS X C++ Linker
+g++  -o "array"  ./main.o   
+Finished building target: array
+ 
+12:35:04 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+12:35:06 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+12:35:27 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+12:38:41 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+12:38:41 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+12:38:41 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+12:38:46 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+12:38:46 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+12:38:46 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+12:38:51 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+12:48:25 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+12:48:25 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+12:48:25 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+12:48:32 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+12:49:06 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+12:49:06 **** Incremental Build of configuration Debug for project array ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp:23:17: error: 'size' is a private member of 'UnsortedList'
+        cout << mylist.size << endl;
+                       ^
+../UnsortedList.h:16:14: note: declared private here
+         int *list, size, max;
+                    ^
+1 error generated.
+make: *** [main.o] Error 1
+12:49:07 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+12:49:47 **** Incremental Build of configuration Debug for project array ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: array
+Invoking: MacOS X C++ Linker
+g++  -o "array"  ./main.o   
+Finished building target: array
+ 
+12:50:04 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+12:50:04 **** Incremental Build of configuration Debug for project array ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: array
+Invoking: MacOS X C++ Linker
+g++  -o "array"  ./main.o   
+Finished building target: array
+ 
+12:50:05 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+12:50:08 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+12:50:14 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+12:50:37 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+12:50:37 **** Incremental Build of configuration Debug for project array ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: array
+Invoking: MacOS X C++ Linker
+g++  -o "array"  ./main.o   
+Finished building target: array
+ 
+12:50:38 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+12:50:42 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+12:50:42 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+12:50:42 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+12:50:45 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+12:51:12 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+12:51:12 **** Incremental Build of configuration Debug for project array ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: array
+Invoking: MacOS X C++ Linker
+g++  -o "array"  ./main.o   
+Finished building target: array
+ 
+12:51:13 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+12:51:15 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+12:51:33 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+12:51:33 **** Incremental Build of configuration Debug for project array ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: array
+Invoking: MacOS X C++ Linker
+g++  -o "array"  ./main.o   
+Finished building target: array
+ 
+12:51:34 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+12:51:37 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+12:51:56 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+12:51:56 **** Incremental Build of configuration Debug for project array ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: array
+Invoking: MacOS X C++ Linker
+g++  -o "array"  ./main.o   
+Finished building target: array
+ 
+12:51:57 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+12:52:00 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+16:19:05 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+Building file: ../lab2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lab2.d" -MT"lab2.o" -o "lab2.o" "../lab2.cpp"
+Finished building: ../lab2.cpp
+ 
+Building target: 301_lab
+Invoking: MacOS X C++ Linker
+g++  -o "301_lab"  ./lab2.o   
+Finished building target: 301_lab
+ 
+16:19:07 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+16:19:07 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+16:19:10 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+15:08:04 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+15:08:04 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+15:08:04 **** Incremental Build of configuration Debug for project linkedlist ****
 make all 
 Building file: ../main.cpp
 Invoking: GCC C++ Compiler
@@ -1363,7 +499,19 @@ Invoking: MacOS X C++ Linker
 g++  -o "linkedlist"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
 Finished building target: linkedlist
  
-13:51:34 **** Incremental Build of configuration Debug for project linkedlist ****
+15:08:27 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+15:08:29 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+15:15:17 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+15:15:17 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+15:15:18 **** Incremental Build of configuration Debug for project linkedlist ****
 make all 
 Building file: ../main.cpp
 Invoking: GCC C++ Compiler
@@ -1375,7 +523,13 @@ Invoking: MacOS X C++ Linker
 g++  -o "linkedlist"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
 Finished building target: linkedlist
  
-13:52:10 **** Incremental Build of configuration Debug for project linkedlist ****
+15:15:38 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+15:15:38 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+15:15:38 **** Incremental Build of configuration Debug for project linkedlist ****
 make all 
 Building file: ../main.cpp
 Invoking: GCC C++ Compiler
@@ -1387,3 +541,1286 @@ Invoking: MacOS X C++ Linker
 g++  -o "linkedlist"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
 Finished building target: linkedlist
  
+15:18:51 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+15:18:51 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+15:18:52 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: linkedlist
+Invoking: MacOS X C++ Linker
+g++  -o "linkedlist"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
+Finished building target: linkedlist
+ 
+15:24:31 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+15:24:31 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+15:24:31 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: linkedlist
+Invoking: MacOS X C++ Linker
+g++  -o "linkedlist"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
+Finished building target: linkedlist
+ 
+15:27:04 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+15:27:04 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+15:27:04 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: linkedlist
+Invoking: MacOS X C++ Linker
+g++  -o "linkedlist"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
+Finished building target: linkedlist
+ 
+15:31:36 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+15:31:36 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+15:31:36 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: linkedlist
+Invoking: MacOS X C++ Linker
+g++  -o "linkedlist"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
+Finished building target: linkedlist
+ 
+15:49:40 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+15:49:40 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+15:49:40 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: linkedlist
+Invoking: MacOS X C++ Linker
+g++  -o "linkedlist"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
+Finished building target: linkedlist
+ 
+15:49:48 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+15:49:48 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+15:49:49 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+15:50:14 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+15:50:14 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+15:50:14 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: linkedlist
+Invoking: MacOS X C++ Linker
+g++  -o "linkedlist"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
+Finished building target: linkedlist
+ 
+15:50:32 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+15:50:32 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+15:50:32 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: linkedlist
+Invoking: MacOS X C++ Linker
+g++  -o "linkedlist"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
+Finished building target: linkedlist
+ 
+15:53:26 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+15:53:26 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+15:53:26 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: linkedlist
+Invoking: MacOS X C++ Linker
+g++  -o "linkedlist"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
+Finished building target: linkedlist
+ 
+15:53:58 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+15:56:18 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+15:56:19 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+15:56:19 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: linkedlist
+Invoking: MacOS X C++ Linker
+g++  -o "linkedlist"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
+Finished building target: linkedlist
+ 
+15:56:21 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+15:56:49 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+15:56:50 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+15:56:50 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: linkedlist
+Invoking: MacOS X C++ Linker
+g++  -o "linkedlist"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./main.o   
+Finished building target: linkedlist
+ 
+15:56:53 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+13:52:16 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+13:52:17 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+13:52:17 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+13:52:57 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+13:52:58 **** Incremental Build of configuration Debug for project array ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: array
+Invoking: MacOS X C++ Linker
+g++  -o "array"  ./main.o   
+Finished building target: array
+ 
+13:52:59 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+13:53:01 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+13:53:48 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+13:53:49 **** Incremental Build of configuration Debug for project array ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: array
+Invoking: MacOS X C++ Linker
+g++  -o "array"  ./main.o   
+Finished building target: array
+ 
+13:53:49 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+13:53:52 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+13:56:17 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+13:56:17 **** Incremental Build of configuration Debug for project array ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: array
+Invoking: MacOS X C++ Linker
+g++  -o "array"  ./main.o   
+Finished building target: array
+ 
+13:56:18 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+13:56:22 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+14:56:06 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+14:56:06 **** Incremental Build of configuration Debug for project array ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: array
+Invoking: MacOS X C++ Linker
+g++  -o "array"  ./main.o   
+Finished building target: array
+ 
+14:56:07 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+14:56:09 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+14:56:21 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+14:56:22 **** Incremental Build of configuration Debug for project array ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: array
+Invoking: MacOS X C++ Linker
+g++  -o "array"  ./main.o   
+Finished building target: array
+ 
+14:56:22 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+14:56:25 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+14:56:36 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+14:56:36 **** Incremental Build of configuration Debug for project array ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: array
+Invoking: MacOS X C++ Linker
+g++  -o "array"  ./main.o   
+Finished building target: array
+ 
+14:56:36 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+14:56:38 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+15:55:50 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+15:55:50 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+15:55:50 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+15:55:50 **** Build of configuration Debug for project stack ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: stack
+Invoking: MacOS X C++ Linker
+g++  -o "stack"  ./main.o   
+Undefined symbols for architecture x86_64:
+  "_main", referenced from:
+     implicit entry/start for main executable
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [stack] Error 1
+18:01:53 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+18:01:53 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+18:01:53 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+18:01:54 **** Incremental Build of configuration Debug for project stack ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: stack
+Invoking: MacOS X C++ Linker
+g++  -o "stack"  ./main.o   
+Finished building target: stack
+ 
+18:02:08 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+18:02:09 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+18:02:09 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+18:02:09 **** Incremental Build of configuration Debug for project stack ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: stack
+Invoking: MacOS X C++ Linker
+g++  -o "stack"  ./main.o   
+Finished building target: stack
+ 
+18:02:29 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+18:02:30 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+18:02:30 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+18:02:30 **** Incremental Build of configuration Debug for project stack ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: stack
+Invoking: MacOS X C++ Linker
+g++  -o "stack"  ./main.o   
+Finished building target: stack
+ 
+18:02:36 **** Incremental Build of configuration Debug for project stack ****
+make all 
+make: Nothing to be done for `all'.
+18:03:11 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+18:03:11 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+18:03:11 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+18:03:12 **** Incremental Build of configuration Debug for project stack ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: stack
+Invoking: MacOS X C++ Linker
+g++  -o "stack"  ./main.o   
+Finished building target: stack
+ 
+18:03:14 **** Incremental Build of configuration Debug for project stack ****
+make all 
+make: Nothing to be done for `all'.
+18:13:01 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+18:13:01 **** Build of configuration Debug for project 301_lab3 ****
+make all 
+Building file: ../lab3.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lab3.d" -MT"lab3.o" -o "lab3.o" "../lab3.cpp"
+../lab3.cpp:15:18: error: use of undeclared identifier 'value'; did you mean 'std::money_base::value'?
+                if(array[i] == value) {
+                               ^~~~~
+                               std::money_base::value
+/Library/Developer/CommandLineTools/usr/include/c++/v1/locale:2595:43: note: 'std::money_base::value' declared here
+    enum part {none, space, symbol, sign, value};
+                                          ^
+1 error generated.
+make: *** [lab3.o] Error 1
+18:13:02 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+18:13:02 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+18:13:02 **** Incremental Build of configuration Debug for project stack ****
+make all 
+make: Nothing to be done for `all'.
+18:13:17 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+18:13:17 **** Incremental Build of configuration Debug for project 301_lab3 ****
+make all 
+Building file: ../lab3.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lab3.d" -MT"lab3.o" -o "lab3.o" "../lab3.cpp"
+Finished building: ../lab3.cpp
+ 
+Building target: 301_lab3
+Invoking: MacOS X C++ Linker
+g++  -o "301_lab3"  ./lab3.o   
+Finished building target: 301_lab3
+ 
+18:13:18 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+18:13:18 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+18:13:18 **** Incremental Build of configuration Debug for project stack ****
+make all 
+make: Nothing to be done for `all'.
+18:29:47 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+18:29:47 **** Incremental Build of configuration Debug for project 301_lab3 ****
+make all 
+Building file: ../lab3.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lab3.d" -MT"lab3.o" -o "lab3.o" "../lab3.cpp"
+Finished building: ../lab3.cpp
+ 
+Building target: 301_lab3
+Invoking: MacOS X C++ Linker
+g++  -o "301_lab3"  ./lab3.o   
+Finished building target: 301_lab3
+ 
+18:29:48 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+18:29:48 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+18:29:48 **** Incremental Build of configuration Debug for project stack ****
+make all 
+make: Nothing to be done for `all'.
+18:29:55 **** Incremental Build of configuration Debug for project 301_lab3 ****
+make all 
+make: Nothing to be done for `all'.
+18:31:35 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+18:31:35 **** Incremental Build of configuration Debug for project 301_lab3 ****
+make all 
+Building file: ../lab3.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lab3.d" -MT"lab3.o" -o "lab3.o" "../lab3.cpp"
+Finished building: ../lab3.cpp
+ 
+Building target: 301_lab3
+Invoking: MacOS X C++ Linker
+g++  -o "301_lab3"  ./lab3.o   
+Finished building target: 301_lab3
+ 
+18:31:35 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+18:31:36 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+18:31:36 **** Incremental Build of configuration Debug for project stack ****
+make all 
+make: Nothing to be done for `all'.
+18:31:38 **** Incremental Build of configuration Debug for project 301_lab3 ****
+make all 
+make: Nothing to be done for `all'.
+18:41:46 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+18:41:46 **** Incremental Build of configuration Debug for project 301_lab3 ****
+make all 
+Building file: ../301_lab3.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"301_lab3.d" -MT"301_lab3.o" -o "301_lab3.o" "../301_lab3.cpp"
+../301_lab3.cpp:68:8: error: no matching constructor for initialization of 'Array [5]'
+        Array array[5];
+              ^
+../301_lab3.cpp:23:8: note: candidate constructor not viable: requires single argument 'm', but no arguments were provided
+Array::Array(int m) {
+       ^
+../301_lab3.cpp:12:7: note: candidate constructor (the implicit copy constructor) not viable: requires 1 argument, but 0 were provided
+class Array {
+      ^
+1 error generated.
+make: *** [301_lab3.o] Error 1
+18:41:47 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+18:41:47 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+18:41:47 **** Incremental Build of configuration Debug for project stack ****
+make all 
+make: Nothing to be done for `all'.
+18:44:34 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+18:44:34 **** Incremental Build of configuration Debug for project 301_lab3 ****
+make all 
+Building file: ../Array.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Array.d" -MT"Array.o" -o "Array.o" "../Array.cpp"
+../Array.cpp:68:8: error: no matching constructor for initialization of 'Array [5]'
+        Array array[5];
+              ^
+../Array.cpp:23:8: note: candidate constructor not viable: requires single argument 'm', but no arguments were provided
+Array::Array(int m) {
+       ^
+../Array.cpp:12:7: note: candidate constructor (the implicit copy constructor) not viable: requires 1 argument, but 0 were provided
+class Array {
+      ^
+1 error generated.
+make: *** [Array.o] Error 1
+18:44:34 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+18:44:35 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+18:44:35 **** Incremental Build of configuration Debug for project stack ****
+make all 
+make: Nothing to be done for `all'.
+18:50:14 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+18:50:14 **** Incremental Build of configuration Debug for project 301_lab3 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp:68:8: error: no matching constructor for initialization of 'Array [5]'
+        Array array[5];
+              ^
+../main.cpp:23:8: note: candidate constructor not viable: requires single argument 'm', but no arguments were provided
+Array::Array(int m) {
+       ^
+../main.cpp:12:7: note: candidate constructor (the implicit copy constructor) not viable: requires 1 argument, but 0 were provided
+class Array {
+      ^
+1 error generated.
+make: *** [main.o] Error 1
+18:50:15 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+18:50:15 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+18:50:15 **** Incremental Build of configuration Debug for project stack ****
+make all 
+make: Nothing to be done for `all'.
+18:50:40 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+18:50:41 **** Incremental Build of configuration Debug for project 301_lab3 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: 301_lab3
+Invoking: MacOS X C++ Linker
+g++  -o "301_lab3"  ./lab3.o ./main.o   
+duplicate symbol _main in:
+    ./lab3.o
+    ./main.o
+ld: 1 duplicate symbol for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [301_lab3] Error 1
+18:50:41 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+18:50:41 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+18:50:42 **** Incremental Build of configuration Debug for project stack ****
+make all 
+make: Nothing to be done for `all'.
+18:51:10 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+18:51:10 **** Incremental Build of configuration Debug for project 301_lab3 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: 301_lab3
+Invoking: MacOS X C++ Linker
+g++  -o "301_lab3"  ./lab3.o ./main.o   
+duplicate symbol _main in:
+    ./lab3.o
+    ./main.o
+ld: 1 duplicate symbol for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [301_lab3] Error 1
+18:51:11 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+18:51:11 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+18:51:11 **** Incremental Build of configuration Debug for project stack ****
+make all 
+make: Nothing to be done for `all'.
+18:51:21 **** Incremental Build of configuration Debug for project 301_lab3 ****
+make all 
+Building file: ../lab3.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lab3.d" -MT"lab3.o" -o "lab3.o" "../lab3.cpp"
+Finished building: ../lab3.cpp
+ 
+Building target: 301_lab3
+Invoking: MacOS X C++ Linker
+g++  -o "301_lab3"  ./lab3.o ./main.o   
+duplicate symbol _main in:
+    ./lab3.o
+    ./main.o
+ld: 1 duplicate symbol for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [301_lab3] Error 1
+18:51:32 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+18:51:32 **** Incremental Build of configuration Debug for project 301_lab3 ****
+make all 
+Building target: 301_lab3
+Invoking: MacOS X C++ Linker
+g++  -o "301_lab3"  ./lab3.o ./main.o   
+duplicate symbol _main in:
+    ./lab3.o
+    ./main.o
+ld: 1 duplicate symbol for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [301_lab3] Error 1
+18:51:32 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+18:51:32 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+18:51:33 **** Incremental Build of configuration Debug for project stack ****
+make all 
+make: Nothing to be done for `all'.
+18:51:35 **** Incremental Build of configuration Debug for project 301_lab3 ****
+make all 
+Building target: 301_lab3
+Invoking: MacOS X C++ Linker
+g++  -o "301_lab3"  ./lab3.o ./main.o   
+duplicate symbol _main in:
+    ./lab3.o
+    ./main.o
+ld: 1 duplicate symbol for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [301_lab3] Error 1
+18:51:57 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+18:51:57 **** Incremental Build of configuration Debug for project 301_lab3 ****
+make all 
+Building target: 301_lab3
+Invoking: MacOS X C++ Linker
+g++  -o "301_lab3"  ./lab3.o ./main.o   
+duplicate symbol _main in:
+    ./lab3.o
+    ./main.o
+ld: 1 duplicate symbol for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [301_lab3] Error 1
+18:51:58 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+18:51:58 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+18:51:58 **** Incremental Build of configuration Debug for project stack ****
+make all 
+make: Nothing to be done for `all'.
+18:52:32 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+18:52:32 **** Incremental Build of configuration Debug for project 301_lab3 ****
+make all 
+Building target: 301_lab3
+Invoking: MacOS X C++ Linker
+g++  -o "301_lab3"  ./main.o   
+Finished building target: 301_lab3
+ 
+18:52:32 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+18:52:32 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+18:52:32 **** Incremental Build of configuration Debug for project stack ****
+make all 
+make: Nothing to be done for `all'.
+18:52:39 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+18:52:39 **** Incremental Build of configuration Debug for project 301_lab3 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: 301_lab3
+Invoking: MacOS X C++ Linker
+g++  -o "301_lab3"  ./main.o   
+Finished building target: 301_lab3
+ 
+18:52:39 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+18:52:40 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+18:52:40 **** Incremental Build of configuration Debug for project stack ****
+make all 
+make: Nothing to be done for `all'.
+18:52:43 **** Incremental Build of configuration Debug for project 301_lab3 ****
+make all 
+make: Nothing to be done for `all'.
+18:53:00 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+18:53:00 **** Incremental Build of configuration Debug for project 301_lab3 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: 301_lab3
+Invoking: MacOS X C++ Linker
+g++  -o "301_lab3"  ./main.o   
+Finished building target: 301_lab3
+ 
+18:53:01 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+18:53:01 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+18:53:01 **** Incremental Build of configuration Debug for project stack ****
+make all 
+make: Nothing to be done for `all'.
+18:53:03 **** Incremental Build of configuration Debug for project 301_lab3 ****
+make all 
+make: Nothing to be done for `all'.
+18:53:59 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+18:54:00 **** Incremental Build of configuration Debug for project 301_lab3 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: 301_lab3
+Invoking: MacOS X C++ Linker
+g++  -o "301_lab3"  ./main.o   
+Finished building target: 301_lab3
+ 
+18:54:00 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+18:54:00 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+18:54:01 **** Incremental Build of configuration Debug for project stack ****
+make all 
+make: Nothing to be done for `all'.
+18:54:02 **** Incremental Build of configuration Debug for project 301_lab3 ****
+make all 
+make: Nothing to be done for `all'.
+18:55:16 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+18:55:16 **** Incremental Build of configuration Debug for project 301_lab3 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp:80:46: warning: address of function 'index' will always evaluate to 'true' [-Wpointer-bool-conversion]
+        cout << "Location of user's element is " << index << endl;
+                                                 ~~ ^~~~~
+../main.cpp:80:46: note: prefix with the address-of operator to silence this warning
+        cout << "Location of user's element is " << index << endl;
+                                                    ^
+                                                    &
+1 warning generated.
+Finished building: ../main.cpp
+ 
+Building target: 301_lab3
+Invoking: MacOS X C++ Linker
+g++  -o "301_lab3"  ./main.o   
+Finished building target: 301_lab3
+ 
+18:55:17 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+18:55:17 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+18:55:17 **** Incremental Build of configuration Debug for project stack ****
+make all 
+make: Nothing to be done for `all'.
+18:55:28 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+18:55:28 **** Incremental Build of configuration Debug for project 301_lab3 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: 301_lab3
+Invoking: MacOS X C++ Linker
+g++  -o "301_lab3"  ./main.o   
+Finished building target: 301_lab3
+ 
+18:55:29 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+18:55:29 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+18:55:29 **** Incremental Build of configuration Debug for project stack ****
+make all 
+make: Nothing to be done for `all'.
+18:55:32 **** Incremental Build of configuration Debug for project 301_lab3 ****
+make all 
+make: Nothing to be done for `all'.
+18:55:47 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+18:55:47 **** Incremental Build of configuration Debug for project 301_lab3 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: 301_lab3
+Invoking: MacOS X C++ Linker
+g++  -o "301_lab3"  ./main.o   
+Finished building target: 301_lab3
+ 
+18:55:48 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+18:55:48 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+18:55:48 **** Incremental Build of configuration Debug for project stack ****
+make all 
+make: Nothing to be done for `all'.
+18:55:50 **** Incremental Build of configuration Debug for project 301_lab3 ****
+make all 
+make: Nothing to be done for `all'.
+19:04:53 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+19:04:53 **** Incremental Build of configuration Debug for project 301_lab3 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: 301_lab3
+Invoking: MacOS X C++ Linker
+g++  -o "301_lab3"  ./main.o   
+Finished building target: 301_lab3
+ 
+19:04:53 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+19:04:54 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+19:04:54 **** Incremental Build of configuration Debug for project stack ****
+make all 
+make: Nothing to be done for `all'.
+19:04:55 **** Incremental Build of configuration Debug for project 301_lab3 ****
+make all 
+make: Nothing to be done for `all'.
+19:11:39 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+19:11:39 **** Incremental Build of configuration Debug for project 301_lab3 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: 301_lab3
+Invoking: MacOS X C++ Linker
+g++  -o "301_lab3"  ./main.o   
+Finished building target: 301_lab3
+ 
+19:11:39 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+19:11:40 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+19:11:40 **** Incremental Build of configuration Debug for project stack ****
+make all 
+make: Nothing to be done for `all'.
+19:11:41 **** Incremental Build of configuration Debug for project 301_lab3 ****
+make all 
+make: Nothing to be done for `all'.
+02:22:21 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+02:22:21 **** Incremental Build of configuration Debug for project 301_lab3 ****
+make all 
+Building file: ../lab3.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lab3.d" -MT"lab3.o" -o "lab3.o" "../lab3.cpp"
+Finished building: ../lab3.cpp
+ 
+Building target: 301_lab3
+Invoking: MacOS X C++ Linker
+g++  -o "301_lab3"  ./lab3.o   
+Finished building target: 301_lab3
+ 
+02:22:22 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+02:22:22 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+02:22:22 **** Build of configuration Debug for project queue ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: queue
+Invoking: MacOS X C++ Linker
+g++  -o "queue"  ./main.o   
+Undefined symbols for architecture x86_64:
+  "_main", referenced from:
+     implicit entry/start for main executable
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [queue] Error 1
+02:22:23 **** Incremental Build of configuration Debug for project stack ****
+make all 
+make: Nothing to be done for `all'.
+02:38:29 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+02:38:29 **** Incremental Build of configuration Debug for project 301_lab3 ****
+make all 
+make: Nothing to be done for `all'.
+02:38:30 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+02:38:30 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+02:38:30 **** Incremental Build of configuration Debug for project queue ****
+make all 
+Building target: queue
+Invoking: MacOS X C++ Linker
+g++  -o "queue"  ./main.o   
+Undefined symbols for architecture x86_64:
+  "_main", referenced from:
+     implicit entry/start for main executable
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [queue] Error 1
+02:38:31 **** Incremental Build of configuration Debug for project stack ****
+make all 
+make: Nothing to be done for `all'.
+02:38:42 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+02:38:42 **** Incremental Build of configuration Debug for project 301_lab3 ****
+make all 
+make: Nothing to be done for `all'.
+02:38:42 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+02:38:43 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+02:38:43 **** Incremental Build of configuration Debug for project queue ****
+make all 
+Building target: queue
+Invoking: MacOS X C++ Linker
+g++  -o "queue"  ./main.o   
+Undefined symbols for architecture x86_64:
+  "_main", referenced from:
+     implicit entry/start for main executable
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [queue] Error 1
+02:38:43 **** Incremental Build of configuration Debug for project stack ****
+make all 
+make: Nothing to be done for `all'.
+02:52:42 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+02:52:42 **** Incremental Build of configuration Debug for project 301_lab3 ****
+make all 
+make: Nothing to be done for `all'.
+02:52:42 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+02:52:42 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+02:52:43 **** Incremental Build of configuration Debug for project queue ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: queue
+Invoking: MacOS X C++ Linker
+g++  -o "queue"  ./main.o   
+Finished building target: queue
+ 
+02:52:43 **** Incremental Build of configuration Debug for project stack ****
+make all 
+make: Nothing to be done for `all'.
+02:52:50 **** Incremental Build of configuration Debug for project queue ****
+make all 
+make: Nothing to be done for `all'.
+02:54:33 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+02:54:33 **** Incremental Build of configuration Debug for project 301_lab3 ****
+make all 
+make: Nothing to be done for `all'.
+02:54:33 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+02:54:33 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+02:54:33 **** Incremental Build of configuration Debug for project queue ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: queue
+Invoking: MacOS X C++ Linker
+g++  -o "queue"  ./main.o   
+Finished building target: queue
+ 
+02:54:34 **** Incremental Build of configuration Debug for project stack ****
+make all 
+make: Nothing to be done for `all'.
+02:54:37 **** Incremental Build of configuration Debug for project queue ****
+make all 
+make: Nothing to be done for `all'.
+02:56:10 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+02:56:10 **** Incremental Build of configuration Debug for project 301_lab3 ****
+make all 
+make: Nothing to be done for `all'.
+02:56:10 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+02:56:11 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+02:56:11 **** Incremental Build of configuration Debug for project queue ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: queue
+Invoking: MacOS X C++ Linker
+g++  -o "queue"  ./main.o   
+Finished building target: queue
+ 
+02:56:12 **** Incremental Build of configuration Debug for project stack ****
+make all 
+make: Nothing to be done for `all'.
+02:57:23 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+02:57:23 **** Incremental Build of configuration Debug for project 301_lab3 ****
+make all 
+make: Nothing to be done for `all'.
+02:57:23 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+02:57:24 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+02:57:24 **** Incremental Build of configuration Debug for project queue ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: queue
+Invoking: MacOS X C++ Linker
+g++  -o "queue"  ./main.o   
+Finished building target: queue
+ 
+02:57:25 **** Incremental Build of configuration Debug for project stack ****
+make all 
+make: Nothing to be done for `all'.
+02:57:29 **** Incremental Build of configuration Debug for project queue ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: queue
+Invoking: MacOS X C++ Linker
+g++  -o "queue"  ./main.o   
+Finished building target: queue
+ 
+02:57:42 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+02:57:42 **** Incremental Build of configuration Debug for project 301_lab3 ****
+make all 
+make: Nothing to be done for `all'.
+02:57:42 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+02:57:43 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+02:57:43 **** Incremental Build of configuration Debug for project queue ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: queue
+Invoking: MacOS X C++ Linker
+g++  -o "queue"  ./main.o   
+Finished building target: queue
+ 
+02:57:43 **** Incremental Build of configuration Debug for project stack ****
+make all 
+make: Nothing to be done for `all'.
+02:57:45 **** Incremental Build of configuration Debug for project queue ****
+make all 
+make: Nothing to be done for `all'.
+02:58:19 **** Incremental Build of configuration Debug for project 301_lab ****
+make all 
+make: Nothing to be done for `all'.
+02:58:20 **** Incremental Build of configuration Debug for project 301_lab3 ****
+make all 
+make: Nothing to be done for `all'.
+02:58:20 **** Incremental Build of configuration Debug for project array ****
+make all 
+make: Nothing to be done for `all'.
+02:58:20 **** Incremental Build of configuration Debug for project linkedlist ****
+make all 
+make: Nothing to be done for `all'.
+02:58:20 **** Incremental Build of configuration Debug for project queue ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: queue
+Invoking: MacOS X C++ Linker
+g++  -o "queue"  ./main.o   
+Finished building target: queue
+ 
+02:58:21 **** Incremental Build of configuration Debug for project stack ****
+make all 
+make: Nothing to be done for `all'.
+02:58:22 **** Incremental Build of configuration Debug for project queue ****
+make all 
+make: Nothing to be done for `all'.

@@ -19,15 +19,17 @@ int main() {
 	list.append(4);
 	list.append(10);
 	list.print();
-	cout << list.getHead() << endl;
 
 	cout << list.isEmpty() << endl;
 
 	cout << list.find(30) << endl;
 
+	cout << list.find(2) << endl;
+
 	cout << list.remove(40) << endl;
 
-	cout << list.getHead() << endl;
+	cout << list.remove(5) << endl;
+
 	list.print();
 
 	list.clear();
