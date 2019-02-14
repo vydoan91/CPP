@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/vydoan/Desktop/Self-Study/CPP/hw5/AVLTree.h
+Tree.h
+/Users/vydoan/Desktop/Self-Study/CPP/hw5/Tree.h
+
+/Users/vydoan/Desktop/Self-Study/CPP/hw5/Tree.h
+iostream
+-
+
+/Users/vydoan/Desktop/Self-Study/CPP/hw5/main.cpp
+AVLTree.h
+/Users/vydoan/Desktop/Self-Study/CPP/hw5/AVLTree.h
+

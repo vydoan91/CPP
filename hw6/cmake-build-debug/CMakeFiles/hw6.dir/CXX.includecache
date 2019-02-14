@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/vydoan/Desktop/Self-Study/CPP/hw6/HeapQueue.h
+iostream
+/Users/vydoan/Desktop/Self-Study/CPP/hw6/iostream
+
+/Users/vydoan/Desktop/Self-Study/CPP/hw6/main.cpp
+HeapQueue.h
+/Users/vydoan/Desktop/Self-Study/CPP/hw6/HeapQueue.h
+

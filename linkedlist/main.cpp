@@ -5,9 +5,7 @@
  *      Author: vydoan
  */
 
-#include <iostream>
 #include "MyList.h"
-using namespace std;
 
 int main() {
 	MyList list;

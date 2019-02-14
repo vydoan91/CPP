@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/vydoan/Desktop/Self-Study/CPP/hw7/HashTable.h
+string
+-
+iostream
+-
+
+/Users/vydoan/Desktop/Self-Study/CPP/hw7/main.cpp
+HashTable.h
+/Users/vydoan/Desktop/Self-Study/CPP/hw7/HashTable.h
+

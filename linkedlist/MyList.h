@@ -4,6 +4,7 @@
 #ifndef MYLIST_H_
 #define MYLIST_H_
 
+#include <iostream>
 #include <new>
 using namespace std;
 

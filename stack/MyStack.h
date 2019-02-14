@@ -14,12 +14,13 @@ using namespace std;
 class MyStack {
 private:
 	int *list, top, max;
+
 public:
 	MyStack(int);
 	~MyStack();
 	int push(int);
 	int pop();
-	int peek(int&);
+	int peek(int&) const;
 	void print();
 };
 
@@ -36,7 +37,7 @@ MyStack::MyStack(int m) {
 
 // Destructor -  frees all memory used by the MyStack object
 MyStack::~MyStack() {
-	delete[] list;
+	delete [] list;
 }
 
 // push - pushes it's argument onto the stack.
@@ -65,9 +66,9 @@ int MyStack::pop() {
 // reference parameter if the stack is not empty.
 // Assigns nothing to the reference parameter if the stack is empty.
 // Returns 0 if the stack isn't empty, -1 otherwise.
-int MyStack::peek(int& a) {
+int MyStack::peek(int& a) const {
 	if(top > -1) {
-		a = top;
+		a = list[top];
 		return 0;
 	}
 	return -1;

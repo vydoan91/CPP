@@ -36,7 +36,7 @@ int main() {
 	mySortedlist.insert(0);
 	mySortedlist.print();
 
-	mySortedlist.remove(4);
+	mySortedlist.remove(3);
 	mySortedlist.print();
 
 	return 0;

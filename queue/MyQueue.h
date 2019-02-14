@@ -10,6 +10,7 @@
 
 #include <iostream>
 using namespace std;
+
 class MyQueue {
 private:
 	int *list, front, back, max;
